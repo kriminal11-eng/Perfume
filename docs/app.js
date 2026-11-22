@@ -789,7 +789,16 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSheet
 window.addEventListener('hashchange', () => handleImport());
 
 // ---------- boot ----------
+// Telefon "masaüstü sitesi" modunda açılırsa (geniş sanal ekran) her şey küçük görünür: ölçekle.
+function fitPhone() {
+  const coarse = matchMedia('(pointer: coarse)').matches;
+  const dev = Math.min(screen.width, screen.height);
+  const z = coarse && dev < 600 && innerWidth > dev * 1.3 ? innerWidth / dev : 1;
+  document.documentElement.style.zoom = z > 1 ? z.toFixed(2) : '';
+}
+
 (async function boot() {
+  fitPhone();
   applyTheme();
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
   await loadData();
