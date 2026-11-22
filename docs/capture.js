@@ -253,16 +253,24 @@
   data.alsoLike = similarFrom(/people who like this also like/i);
 
   /* --- Yorumlar --- */
-  var boxes = $$('.fragrance-review-box');
-  if (!boxes.length) boxes = $$('[itemprop="review"]');
+  /* Yeni tasarımda yorumlar [itemprop="review"] kartlarında; eski .fragrance-review-box boş kalabiliyor.
+     İç içe review öğelerinden yalnızca en dıştakileri al. */
+  var boxes = $$('[itemprop="review"]').filter(function (b) { return !(b.parentElement && b.parentElement.closest('[itemprop="review"]')); });
+  if (!boxes.length) boxes = $$('.fragrance-review-box');
+  var seenRv = {};
   data.reviews = boxes.map(function (b) {
-    var body = $('[itemprop="reviewBody"]', b) || b;
+    var body = $('[itemprop="reviewBody"]', b) || $('[itemprop="description"]', b) || b;
+    var au = $('[itemprop="author"] [itemprop="name"]', b) || $('[itemprop="author"]', b) || $('a[href*="/member/"]', b) || $('b', b);
+    var dt = $('[itemprop="datePublished"]', b) || $('time', b);
+    var t = txt(body);
+    if (seenRv[t.slice(0, 80)]) return { text: '' };
+    seenRv[t.slice(0, 80)] = 1;
     return {
-      author: txt($('[itemprop="author"]', b)) || txt($('b', b)),
-      date: txt($('[itemprop="datePublished"]', b)),
-      text: txt(body).slice(0, 900)
+      author: au ? (au.getAttribute('content') || txt(au)).slice(0, 40) : '',
+      date: dt ? (dt.getAttribute('content') || dt.getAttribute('datetime') || txt(dt)).slice(0, 20) : '',
+      text: t.slice(0, 900)
     };
-  }).filter(function (r) { return r.text.length > 20; }).slice(0, 10);
+  }).filter(function (r) { return r.text.length > 20; }).slice(0, 15);
 
   if (!data.reviews.length) {
     var rh = leafWith(/(^|\s)reviews?\b/i, 60).filter(function (h) { return !/perfumes:|members:/i.test(txt(h.parentElement || h)); });
@@ -327,6 +335,8 @@
       return longs.slice(-2).map(function (r) { var box = r.parentElement && r.parentElement.parentElement || r; return box.outerHTML.replace(/\s+/g, ' ').slice(0, 3000); });
     })()
   };
+
+  data.debugBig.review1 = boxes[0] ? boxes[0].outerHTML.replace(/\s+/g, ' ').slice(0, 3000) : null;
 
   /* --- Uygulamaya gönder (sıkıştırılmış, URL hash ile) --- */
   var json = JSON.stringify(data);
