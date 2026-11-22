@@ -1,0 +1,12 @@
+{
+  "name": "perfume-scraper",
+  "private": true,
+  "type": "module",
+  "description": "Daily monitor for parfium.bg, parfimo.bg, notino.bg: new perfumes + discount codes",
+  "scripts": {
+    "run": "node run.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.49.1"
+  }
+}

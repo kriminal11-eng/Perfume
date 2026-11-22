@@ -1,0 +1,58 @@
+name: Günlük parfüm takibi
+
+on:
+  schedule:
+    - cron: '23 6 * * *'   # her gün 06:23 UTC (Sofya 08:23 / İstanbul 09:23)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Bağımlılıklar
+        working-directory: scraper
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Mağazaları tara
+        id: run
+        working-directory: scraper
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node run.mjs
+
+      - name: Veriyi kaydet
+        run: |
+          git config user.name "parfum-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data scraper/state
+          git diff --cached --quiet || git commit -m "Günlük veri: $(date -u +%F)"
+          git push
+
+      - name: Bildirim (GitHub issue)
+        if: steps.run.outputs.notify == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: ${{ steps.run.outputs.title }}
+        run: |
+          APP="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          { cat scraper/out/notify.md; echo; echo "📱 Uygulama: $APP"; } > body.md
+          gh issue create --title "$TITLE ($(date -u +%d.%m))" --body-file body.md --assignee "$GITHUB_REPOSITORY_OWNER" || \
+          gh issue create --title "$TITLE ($(date -u +%d.%m))" --body-file body.md
