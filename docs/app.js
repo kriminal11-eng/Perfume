@@ -416,7 +416,7 @@ function renderFrag(f) {
   }
   if (f.description) out.push(`<div class="block"><h3>Açıklama</h3><div class="sub">${esc(f.description)}</div></div>`);
   out.push(`<div class="block sub">Fragrantica’dan ${fmtDate(f.capturedAt)} tarihinde alındı · ${ext(f.url, 'kaynak')} · <a href="#" data-refetch="${esc(f.url)}">güncelle</a> · <a href="#" data-delfrag="${esc(f.id)}" style="color:#c2416b">kütüphaneden sil</a></div>`);
-  if (f.debug) out.push(`<div class="block sub">Eksik bölüm mü var? <a href="${esc(debugIssueUrl(f))}" target="_blank" rel="noopener">Tanı bilgisini geliştiriciye gönder ↗</a> (GitHub’da hazır bir kayıt açılır, sadece “Create” de)</div>`);
+  if (f.debug) out.push(`<div class="block sub">Eksik bölüm mü var? <a href="${esc(debugIssueUrl(f))}" target="_blank" rel="noopener" data-debugcopy="${esc(f.id)}">Tanı bilgisini geliştiriciye gönder ↗</a><br>Ayrıntılı döküm panoya kopyalanır: açılan GitHub sayfasında metin kutusunun sonuna <b>yapıştır</b>, sonra “Create”.</div>`);
   return out.join('');
 }
 
@@ -811,6 +811,11 @@ document.addEventListener('click', async (e) => {
     save(); return render();
   }
   if (d.delcode) { S.myCodes = S.myCodes.filter((c) => c.id !== d.delcode); save(); return render(); }
+  if (d.debugcopy) {
+    const f = S.frag[d.debugcopy];
+    if (f?.debugBig) { try { await navigator.clipboard.writeText('\n\nAYRINTILI DÖKÜM:\n' + '`'.repeat(3) + 'json\n' + JSON.stringify(f.debugBig, null, 1) + '\n' + '`'.repeat(3)); toast('Döküm kopyalandı — GitHub’da yapıştır'); } catch {} }
+    return; // link opens normally
+  }
   if (d.copybmlong !== undefined) { try { await navigator.clipboard.writeText(openSettings.bmLong); toast('Uzun kod kopyalandı'); } catch { toast('Kopyalanamadı'); } return; }
   if (d.copybm !== undefined) {
     if (!openSettings.bm || openSettings.bm === '#') return toast('Kod yüklenemedi, internet bağlantısını kontrol edip Ayarlar’ı yeniden aç');

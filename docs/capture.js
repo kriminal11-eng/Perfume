@@ -29,6 +29,20 @@
 
   var data = { v: 1, id: idm[1], url: location.href.split('#')[0].split('?')[0], capturedAt: new Date().toISOString() };
 
+  /* --- Sayfayı aşağı kaydır: yeni tasarım bazı bölümleri (oylar, hatırlatanlar, yorumlar) görünür olunca yüklüyor --- */
+  var wait = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
+  var startY = window.scrollY;
+  for (var step = 0; step < 30; step++) {
+    var before = window.scrollY;
+    window.scrollBy(0, Math.round(window.innerHeight * 0.9));
+    note.textContent = 'Parfüm Defteri: sayfa taranıyor… ' + Math.min(99, Math.round(100 * (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight)) + '%';
+    await wait(350);
+    if (window.scrollY === before) break;
+  }
+  await wait(800);
+  window.scrollTo(0, startY);
+  note.textContent = 'Parfüm Defteri: bilgiler okunuyor…';
+
   /* --- Başlık, marka, görsel --- */
   var h1 = $('h1[itemprop="name"]') || $('h1');
   data.title = txt(h1);
@@ -53,6 +67,16 @@
   if (y) data.year = +y[1];
   data.perfumers = $$('a[href*="/noses/"]').map(txt).filter(function (s, i, a) { return s && a.indexOf(s) === i; }).slice(0, 4);
 
+  /* Genel yardımcılar (yeni tasarım: sınıf adlarına değil, görünen yazıya göre bul) */
+  var leafWith = function (re, maxLen) {
+    return $$('body *').filter(function (e) {
+      if (e.closest('#pd-note')) return false;
+      var own = Array.prototype.map.call(e.childNodes, function (n) { return n.nodeType === 3 ? n.textContent : ''; }).join(' ').replace(/\s+/g, ' ').trim();
+      return own && own.length <= (maxLen || 60) && re.test(own);
+    });
+  };
+  var widthOf = function (el) { var m = (el.getAttribute && el.getAttribute('style') || '').match(/width:\s*([\d.]+)%/); return m ? +m[1] : null; };
+
   /* --- Ana akorlar --- */
   data.accords = $$('.accord-bar').map(function (el) {
     var st = el.getAttribute('style') || '';
@@ -60,6 +84,19 @@
     var bg = st.match(/background(?:-color)?:\s*([^;]+)/);
     return { name: txt(el), width: w ? +w[1] : null, color: bg ? bg[1].trim() : null };
   }).filter(function (a) { return a.name; }).slice(0, 12);
+
+  if (!data.accords.length) {
+    var ah = leafWith(/^main accords$/i)[0];
+    var abox = ah, ag = 0;
+    while (abox && ag++ < 6 && $$('[style*="width"]', abox).filter(function (b) { return widthOf(b) != null && txt(b); }).length < 2) abox = abox.parentElement;
+    if (abox) {
+      data.accords = $$('[style*="width"]', abox).map(function (el) {
+        var st = el.getAttribute('style') || '';
+        var bg = st.match(/background(?:-color)?:\s*([^;]+)/);
+        return { name: txt(el), width: widthOf(el), color: bg ? bg[1].trim() : null };
+      }).filter(function (a) { return a.name && a.width != null && a.name.length < 30; }).slice(0, 12);
+    }
+  }
 
   /* --- Nota piramidi --- */
   var noteFrom = function (a) {
@@ -147,11 +184,35 @@
     if (cur && GROUPS[cur].indexOf(label) > -1 && votes[cur][label] === undefined) votes[cur][label] = count;
     else cur = null;
   });
+  /* Yedek: etiket yazısının bulunduğu satırda sayı (oy adedi) ya da genişlik (%) ara */
+  Object.keys(GROUPS).forEach(function (g) {
+    if (votes[g] && Object.keys(votes[g]).length >= GROUPS[g].length - 1) return;
+    var titleRe = { sentiment: /^(rating|how do you like|what do you think)/i, longevity: /^longevity/i, sillage: /^sillage/i, gender: /^gender/i, price: /^price value/i }[g];
+    var head = leafWith(titleRe, 40)[0];
+    var scope = head, sg = 0;
+    while (scope && sg++ < 5 && leafWith(new RegExp('^' + GROUPS[g][1] + '$', 'i')).filter(function (e) { return scope.contains(e); }).length < 1) scope = scope.parentElement;
+    if (!scope) return;
+    var out = {}, found = 0;
+    GROUPS[g].forEach(function (label) {
+      var el = leafWith(new RegExp('^' + label.replace(/ /g, '\\s+') + '$', 'i'), 30).filter(function (e) { return scope.contains(e); })[0];
+      if (!el) return;
+      var row = el, val = null;
+      for (var up = 0; up < 3 && row && val == null; up++) {
+        row = row.parentElement;
+        if (!row) break;
+        var nums = $$('*', row).filter(function (x) { return x.children.length === 0 && /^\d[\d,.]*k?$/i.test(txt(x)); });
+        if (nums.length === 1) { var t = txt(nums[0]).replace(/,/g, ''); val = /k$/i.test(t) ? parseFloat(t) * 1000 : parseFloat(t); }
+        else { var bars = $$('[style*="width"]', row).filter(function (b) { return widthOf(b) != null; }); if (bars.length === 1) val = widthOf(bars[0]); }
+      }
+      if (val != null) { out[label] = val; found++; }
+    });
+    if (found >= 2) votes[g] = out;
+  });
   data.votes = votes;
 
   /* --- "Bu parfüm şunu hatırlatıyor" --- */
   var similarFrom = function (headRe) {
-    var head = $$('h2, h3, h4, h5, b, strong, span').find(function (e) { return headRe.test(txt(e)) && txt(e).length < 60; });
+    var head = $$('h2, h3, h4, h5, b, strong, span').find(function (e) { return headRe.test(txt(e)) && txt(e).length < 60; }) || leafWith(headRe, 80)[0];
     if (!head) return [];
     var box = head.parentElement, guard = 0;
     while (box && guard++ < 4 && $$('a[href*="/perfume/"] img', box).length < 1) box = box.parentElement;
@@ -199,6 +260,23 @@
     notes: snip(/^(top notes|middle notes|base notes|fragrance notes|perfume pyramid)$/i),
     longevity: snip(/^longevity$/i), sillage: snip(/^sillage$/i), price: snip(/^price value$/i),
     gender: snip(/^gender$/i), reminds: snip(/reminds me of/i), reviews: snip(/^(all reviews|perfume reviews|reviews)/i)
+  };
+
+  var skeleton = function (re) {
+    var el = leafWith(re, 80)[0];
+    if (!el) return null;
+    var box = el, g = 0;
+    while (box.parentElement && g++ < 8 && box.parentElement.outerHTML.length < 6000) box = box.parentElement;
+    var c = box.cloneNode(true);
+    $$('svg, script, style, noscript, iframe', c).forEach(function (x) { x.replaceWith(document.createTextNode('')); });
+    $$('*', c).forEach(function (x) { var cl = x.getAttribute('class'); if (cl && cl.length > 50) x.setAttribute('class', cl.slice(0, 50)); });
+    return c.outerHTML.replace(/\s+/g, ' ').slice(0, 5000);
+  };
+  data.debugBig = {
+    accords: skeleton(/^main accords$/i), longevity: skeleton(/^longevity/i), sillage: skeleton(/^sillage/i),
+    gender: skeleton(/^gender/i), price: skeleton(/^price value/i), reminds: skeleton(/reminds me of/i),
+    rating: skeleton(/^(rating|perfume rating)/i), reviews: skeleton(/reviews?\b/i),
+    reviewText: (function () { var r = $$('p, div').filter(function (e) { return e.children.length <= 1 && txt(e).length > 250; })[0]; return r ? (r.parentElement || r).outerHTML.replace(/\s+/g, ' ').slice(0, 3000) : null; })()
   };
 
   /* --- Uygulamaya gönder (sıkıştırılmış, URL hash ile) --- */
