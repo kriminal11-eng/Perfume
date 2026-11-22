@@ -53,12 +53,14 @@ const imgTag = (src, alt = '') =>
   src ? `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'noimg',textContent:''}))">`
       : `<svg class="noimg"><use href="#i-bottle"/></svg>`;
 
-function toast(msg) {
+function toast(msg, undo) {
   const t = $('#toast');
-  t.textContent = msg;
+  toast.undo = undo || null;
+  t.innerHTML = esc(msg) + (undo ? ' <button class="toast-undo" data-undo>Geri al</button>' : '');
+  t.classList.toggle('has-undo', !!undo);
   t.classList.add('on');
   clearTimeout(toast.h);
-  toast.h = setTimeout(() => t.classList.remove('on'), 2400);
+  toast.h = setTimeout(() => { t.classList.remove('on'); toast.undo = null; }, undo ? 5000 : 2400);
 }
 
 function applyTheme() {
@@ -219,6 +221,7 @@ function itemRow(i) {
       <div>${i.decant ? '<span class="pill decant">Dekant</span>' : ''}${i.priceNote ? `<span class="pill price">${esc(i.priceNote)}</span>` : ''}${i.size ? `<span class="pill">${esc(i.size)}</span>` : ''}${acc}</div>
       ${f ? seasonStrip(f) : ''}
     </div>
+    <button class="mini row-del" data-del="${esc(i.uid)}" aria-label="${i.list === 'collection' ? 'Koleksiyondan çıkar' : 'Wishlist’ten çıkar'}"><svg><use href="#i-trash"/></svg></button>
   </div>`;
 }
 
@@ -358,6 +361,7 @@ function openDetail(kind, id, extra) {
         <span class="pill ${x.list === 'collection' ? '' : 'decant'}" style="padding:6px 10px;font-size:13px">${x.list === 'collection' ? '✓ Koleksiyonumda' : '♡ Wishlist’te'}</span>
         <button class="btn small" data-edit="${x.uid}">Düzenle / not</button>
         <button class="btn small" data-move="${x.uid}">${x.list === 'collection' ? 'Wishlist’e taşı' : 'Aldım → Koleksiyona'}</button>
+        <button class="btn small danger" data-del="${x.uid}"><svg><use href="#i-trash"/></svg>${x.list === 'collection' ? 'Koleksiyondan çıkar' : 'Wishlist’ten çıkar'}</button>
       </div>`
     : `<div class="btnrow" style="margin-top:14px">
         <button class="btn primary" data-addfrom="collection"><svg><use href="#i-check"/></svg>Bende var</button>
@@ -411,7 +415,7 @@ function renderFrag(f) {
     out.push(`<div class="block"><h3>Yorumlar (${f.reviews.length})</h3>${f.reviews.map((r) => `<div class="review" data-rev><div class="ra">${esc(r.author || 'Anonim')}${r.date ? ' · ' + esc(r.date) : ''}</div><div class="rt">${esc(r.text)}</div></div>`).join('')}</div>`);
   }
   if (f.description) out.push(`<div class="block"><h3>Açıklama</h3><div class="sub">${esc(f.description)}</div></div>`);
-  out.push(`<div class="block sub">Fragrantica’dan ${fmtDate(f.capturedAt)} tarihinde alındı · ${ext(f.url, 'kaynak')} · <a href="#" data-refetch="${esc(f.url)}">güncelle</a></div>`);
+  out.push(`<div class="block sub">Fragrantica’dan ${fmtDate(f.capturedAt)} tarihinde alındı · ${ext(f.url, 'kaynak')} · <a href="#" data-refetch="${esc(f.url)}">güncelle</a> · <a href="#" data-delfrag="${esc(f.id)}" style="color:#c2416b">kütüphaneden sil</a></div>`);
   return out.join('');
 }
 
@@ -545,10 +549,8 @@ function addFromContext(list) {
 function quickToggle(list, shopId) {
   const p = products.find((x) => x.id === shopId);
   const ex = itemByShop(shopId);
-  if (ex && ex.list === list) {
-    S[list] = S[list].filter((i) => i !== ex);
-    toast('Kaldırıldı');
-  } else if (ex) {
+  if (ex && ex.list === list) return removeItem(ex.uid);
+  else if (ex) {
     S[ex.list] = S[ex.list].filter((i) => i !== ex);
     ex.list = list;
     S[list].unshift(ex);
@@ -563,6 +565,22 @@ function quickToggle(list, shopId) {
   }
   save();
   render();
+}
+
+function removeItem(u) {
+  const x = itemByUid(u);
+  if (!x) return;
+  const list = x.list;
+  const idx = S[list].indexOf(x);
+  S[list] = S[list].filter((i) => i !== x);
+  save();
+  closeSheet();
+  render();
+  toast(list === 'collection' ? 'Koleksiyondan çıkarıldı' : 'Wishlist’ten çıkarıldı', () => {
+    S[list].splice(idx, 0, x);
+    save();
+    render();
+  });
 }
 
 function moveItem(u) {
@@ -710,12 +728,17 @@ document.addEventListener('click', async (e) => {
   if (d.addfrom) return addFromContext(d.addfrom);
   if (d.edit) return editForm(itemByUid(d.edit));
   if (d.move) return moveItem(d.move);
-  if (d.del) {
-    if (!confirm('Silinsin mi?')) return;
-    const x = itemByUid(d.del);
-    S[x.list] = S[x.list].filter((i) => i !== x);
-    save(); closeSheet(); render(); return toast('Silindi');
+  if (d.del) { e.stopPropagation(); return removeItem(d.del); }
+  if (d.delfrag) {
+    e.preventDefault();
+    if (!confirm('Bu Fragrantica kaydı kütüphaneden silinsin mi? (Koleksiyon/wishlist kaydın kalır)')) return;
+    const fid = d.delfrag;
+    const backup = S.frag[fid];
+    delete S.frag[fid];
+    save(); closeSheet(); render();
+    return toast('Fragrantica kaydı silindi', () => { S.frag[fid] = backup; save(); render(); });
   }
+  if (d.undo !== undefined) { const fn = toast.undo; toast.undo = null; $('#toast').classList.remove('on'); fn?.(); return; }
   if (d.sim) {
     const f = S.frag[d.sim];
     if (f) return openDetail('frag', d.sim);
