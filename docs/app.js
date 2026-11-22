@@ -389,6 +389,14 @@ function openDetail(kind, id, extra) {
 
 function renderFrag(f) {
   const out = [];
+  const hasSeason = f.seasons && Object.values(f.seasons).some((v) => v != null);
+  const hasTime = f.time && Object.values(f.time).some((v) => v != null);
+  if (hasSeason || hasTime) {
+    const cell = (k, tr, v) => `<div class="w"><svg style="color:var(--${k});opacity:${v == null ? 0.3 : 0.35 + 0.65 * (v / 100)}"><use href="#s-${k}"/></svg><span>${tr}</span><div class="vbar"><i style="width:${v || 0}%;background:var(--${k})"></i></div></div>`;
+    out.push(`<div class="block"><h3>Ne zaman kullanılır?</h3><div class="wear">
+      ${SEASONS.map(([k, tr]) => cell(k, tr, f.seasons?.[k])).join('')}${TIMES.map(([k, tr]) => cell(k, tr, f.time?.[k])).join('')}
+    </div></div>`);
+  }
   const meters = ['longevity', 'sillage', 'gender', 'price'].filter((k) => f.votes?.[k]).map((k) => meter(k, f.votes[k]));
   if (meters.length) out.push(`<div class="block"><h3>Topluluk oyları</h3><div class="meters">${meters.join('')}</div></div>`);
   if (f.accords?.length) {
@@ -404,14 +412,6 @@ function renderFrag(f) {
     </div></div>`);
   } else if (N.all?.length) {
     out.push(`<div class="block"><h3>Notalar</h3>${noteHtml(N.all)}</div>`);
-  }
-  const hasSeason = f.seasons && Object.values(f.seasons).some((v) => v != null);
-  const hasTime = f.time && Object.values(f.time).some((v) => v != null);
-  if (hasSeason || hasTime) {
-    const cell = (k, tr, v) => `<div class="w"><svg style="color:var(--${k});opacity:${v == null ? 0.3 : 0.35 + 0.65 * (v / 100)}"><use href="#s-${k}"/></svg><span>${tr}</span><div class="vbar"><i style="width:${v || 0}%;background:var(--${k})"></i></div></div>`;
-    out.push(`<div class="block"><h3>Ne zaman kullanılır?</h3><div class="wear">
-      ${SEASONS.map(([k, tr]) => cell(k, tr, f.seasons?.[k])).join('')}${TIMES.map(([k, tr]) => cell(k, tr, f.time?.[k])).join('')}
-    </div></div>`);
   }
 
   const sims = (arr, title) => arr?.length ? `<div class="block"><h3>${title}</h3><div class="hscroll">${arr.map((s) => `<div class="sim" data-sim="${esc(s.id)}" data-name="${esc(s.name)}" data-url="${esc(s.url)}"><img src="${esc(s.img || fragImg(s.id))}" alt="" loading="lazy" referrerpolicy="no-referrer"><div>${esc(s.name)}</div></div>`).join('')}</div></div>` : '';
@@ -436,8 +436,7 @@ function debugIssueUrl(f) {
     hatirlatan: f.remindsOf?.length || 0, benzer: f.alsoLike?.length || 0, yorum: f.reviews?.length || 0,
   };
   const fence = '`'.repeat(3);
-  let body = `Sayfa: ${f.url}\n\nGelenler: ${JSON.stringify(have)}\n\n${fence}json\n${JSON.stringify(f.debug, null, 1)}\n${fence}`;
-  if (body.length > 6500) body = body.slice(0, 6500) + '\n…(kısaltıldı)';
+  const body = `Sayfa: ${f.url}\n\nGelenler: ${JSON.stringify(have)}\n\nSayaçlar: ${JSON.stringify(f.debug?.counts || {})}\n\n(Ayrıntılı döküm panoya kopyalandı — bu satırın altına YAPIŞTIR)\n`;
   const repo = 'https://github.com/kriminal11-eng/Perfume';
   return `${repo}/issues/new?title=${encodeURIComponent('Fragrantica tanı: ' + (f.brand || '') + ' ' + (f.name || ''))}&body=${encodeURIComponent(body)}`;
 }
