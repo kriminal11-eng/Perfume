@@ -5,6 +5,11 @@
    Yalnızca sizin tarayıcınızda, sizin açtığınız sayfada çalışır. */
 (async function () {
   var APP = '__APP_URL__';
+  var note = document.createElement('div');
+  note.textContent = 'Parfüm Defteri: bilgiler okunuyor…';
+  note.setAttribute('style', 'position:fixed;left:12px;right:12px;top:12px;z-index:2147483647;background:#9b5a7a;color:#fff;font:600 16px/1.4 sans-serif;padding:14px 16px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.3);text-align:center');
+  document.body.appendChild(note);
+  try {
   var d = document;
   var txt = function (el) { return el ? (el.textContent || '').replace(/\s+/g, ' ').trim() : ''; };
   var $ = function (s, r) { return (r || d).querySelector(s); };
@@ -14,7 +19,8 @@
 
   var idm = location.pathname.match(/\/perfume\/[^/]+\/.+-(\d+)\.html/);
   if (!/fragrantica\./.test(location.hostname) || !idm) {
-    alert('Lütfen Fragrantica\'da bir parfüm sayfası açıp tekrar deneyin.');
+    note.textContent = 'Lütfen Fragrantica\'da bir parfüm sayfası açıp tekrar deneyin.';
+    setTimeout(function () { note.remove(); }, 4000);
     return;
   }
 
@@ -164,6 +170,11 @@
     payload = 'j' + encodeURIComponent(json);
   }
   var url = APP + '#fimport=' + payload;
-  var w = window.open(url, '_blank');
-  if (!w) location.href = url;
+  note.textContent = 'Parfüm Defteri açılıyor… (' + (data.accords || []).length + ' akor, ' +
+    ['top', 'middle', 'base', 'all'].reduce(function (n, k) { return n + ((data.notes || {})[k] || []).length; }, 0) + ' nota)';
+  location.href = url;
+  } catch (err) {
+    note.style.background = '#b3261e';
+    note.textContent = 'Parfüm Defteri hatası: ' + (err && err.message || err);
+  }
 })();

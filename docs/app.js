@@ -660,6 +660,10 @@ async function openSettings() {
         <li>Fragrantica’da parfüm sayfasındayken: Chrome’da adres çubuğuna “Parfüm Defteri” yazıp yer imine dokun; Safari’de yer imlerinden seç.</li>
       </ol>
       <button class="btn small" data-copybm><svg><use href="#i-copy"/></svg>Kodu kopyala</button>
+      <details style="margin-top:8px"><summary class="sub">Kopyalama çalışmazsa kodu göster</summary>
+        <textarea readonly onclick="this.select()" style="width:100%;height:90px;font-size:11px;margin-top:6px">${esc(bm)}</textarea>
+        <div class="sub">Kod <b>javascript:</b> ile başlamalı; yer iminin adresiyle aynı olmalı. Sürüm: ${bm.length} karakter.</div>
+      </details>
     </div>
     <div class="block"><h3>Bildirimler</h3>
       <p class="sub">Telefonuna anlık bildirim için günlük görev şunları yapar: (1) GitHub’da bir “issue” açar — GitHub mobil uygulaması bildirim gönderir; (2) isteğe bağlı Telegram botu ayarlarsan Telegram’dan mesaj atar. Uygulama açıldığında yeni ürün/kod varsa ayrıca burada bildirim gösterilir.</p>
@@ -786,7 +790,12 @@ document.addEventListener('click', async (e) => {
     save(); return render();
   }
   if (d.delcode) { S.myCodes = S.myCodes.filter((c) => c.id !== d.delcode); save(); return render(); }
-  if (d.copybm !== undefined) { await navigator.clipboard?.writeText(openSettings.bm); return toast('Yer imi kodu kopyalandı'); }
+  if (d.copybm !== undefined) {
+    if (!openSettings.bm || openSettings.bm === '#') return toast('Kod yüklenemedi, internet bağlantısını kontrol edip Ayarlar’ı yeniden aç');
+    try { await navigator.clipboard.writeText(openSettings.bm); toast('Yer imi kodu kopyalandı'); }
+    catch { toast('Kopyalanamadı — “kodu göster”den elle kopyala'); }
+    return;
+  }
   if (d.theme) { S.theme = d.theme; save(); applyTheme(); return openSettings(); }
   if (d.export !== undefined) return exportData();
   if (d.notify !== undefined) {
