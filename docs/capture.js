@@ -81,6 +81,28 @@
   if (!notes.top.length && !notes.middle.length && !notes.base.length) {
     notes.all = $$('a[href*="/notes/"]', pyramid).filter(function (a) { return $('img', a); }).map(noteFrom);
   }
+  /* Yedek yöntem: nota resimleri (fimgs.net/.../sastojci/) — bağlantı içinde olmasalar da bulunur;
+     her resim, belgede kendinden önce gelen "Top/Middle/Base Notes" başlığına atanır. */
+  if (!notes.top.length && !notes.middle.length && !notes.base.length && !notes.all.length) {
+    var heads2 = $$('h2, h3, h4, h5, h6, b, strong, span, div, p').filter(function (h) {
+      return h.children.length <= 1 && /^\s*(top|middle|heart|base) notes\s*$/i.test(txt(h));
+    });
+    var levelOf = function (el) {
+      var lvl = null;
+      heads2.forEach(function (h) {
+        if (h.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING) {
+          lvl = /top/i.test(txt(h)) ? 'top' : /base/i.test(txt(h)) ? 'base' : 'middle';
+        }
+      });
+      return lvl || 'all';
+    };
+    $$('img').filter(function (im) { return /\/sastojci\//.test(im.getAttribute('src') || im.getAttribute('data-src') || ''); }).forEach(function (im) {
+      var a = im.closest('a');
+      var holder = im.parentElement;
+      var name = im.getAttribute('alt') || im.getAttribute('title') || txt(a) || txt(holder) || txt(holder && holder.parentElement);
+      notes[levelOf(im)].push({ name: (name || '').trim(), img: abs(im.getAttribute('src') || im.getAttribute('data-src')), url: a ? a.href : null });
+    });
+  }
   var dedupe = function (arr) { var s = {}; return arr.filter(function (n) { if (!n.name || s[n.name]) return false; s[n.name] = 1; return true; }); };
   ['top', 'middle', 'base', 'all'].forEach(function (k) { notes[k] = dedupe(notes[k]).slice(0, 30); });
   data.notes = notes;
@@ -139,7 +161,7 @@
       var m = a.getAttribute('href').match(/-(\d+)\.html/);
       if (!m || m[1] === data.id || seen[m[1]]) return null;
       var im = $('img', a);
-      var label = (im && (im.getAttribute('alt') || im.getAttribute('title'))) || txt(a);
+      var label = ((im && (im.getAttribute('alt') || im.getAttribute('title'))) || txt(a) || '').replace(/^perfume\s+/i, '');
       if (!im && !label) return null;
       seen[m[1]] = 1;
       return { id: m[1], name: (label || '').trim(), url: abs(a.getAttribute('href')), img: im ? abs(im.getAttribute('src') || im.getAttribute('data-src')) : 'https://fimgs.net/mdimg/perfume/375x500.' + m[1] + '.jpg' };
@@ -159,6 +181,25 @@
       text: txt(body).slice(0, 900)
     };
   }).filter(function (r) { return r.text.length > 20; }).slice(0, 10);
+
+  /* --- Tanı bilgisi: eksik bölümlerin sayfa yapısını görmek için küçük HTML parçaları --- */
+  var snip = function (re) {
+    var el = $$('h1, h2, h3, h4, h5, h6, span, b, strong, div, p, td, a').find(function (e) { return e.children.length <= 2 && re.test(txt(e)) && txt(e).length < 80; });
+    if (!el) return null;
+    var box = (el.parentElement && el.parentElement.parentElement) || el;
+    return box.outerHTML.replace(/\s+/g, ' ').replace(/<svg[\s\S]*?<\/svg>/g, '<svg/>').slice(0, 1400);
+  };
+  data.debug = {
+    ua: navigator.userAgent.slice(0, 120),
+    counts: {
+      notesLinks: $$('a[href*="/notes/"]').length, noteImgs: $$('img[src*="sastojci"], img[data-src*="sastojci"]').length,
+      voteNames: $$('.vote-button-name').length, voteLegends: $$('.vote-button-legend').length,
+      reviewBoxes: $$('.fragrance-review-box').length, itempropReview: $$('[itemprop="review"]').length, pyramid: !!$('#pyramid')
+    },
+    notes: snip(/^(top notes|middle notes|base notes|fragrance notes|perfume pyramid)$/i),
+    longevity: snip(/^longevity$/i), sillage: snip(/^sillage$/i), price: snip(/^price value$/i),
+    gender: snip(/^gender$/i), reminds: snip(/reminds me of/i), reviews: snip(/^(all reviews|perfume reviews|reviews)/i)
+  };
 
   /* --- Uygulamaya gönder (sıkıştırılmış, URL hash ile) --- */
   var json = JSON.stringify(data);

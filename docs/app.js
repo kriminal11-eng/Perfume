@@ -416,7 +416,23 @@ function renderFrag(f) {
   }
   if (f.description) out.push(`<div class="block"><h3>Açıklama</h3><div class="sub">${esc(f.description)}</div></div>`);
   out.push(`<div class="block sub">Fragrantica’dan ${fmtDate(f.capturedAt)} tarihinde alındı · ${ext(f.url, 'kaynak')} · <a href="#" data-refetch="${esc(f.url)}">güncelle</a> · <a href="#" data-delfrag="${esc(f.id)}" style="color:#c2416b">kütüphaneden sil</a></div>`);
+  if (f.debug) out.push(`<div class="block sub">Eksik bölüm mü var? <a href="${esc(debugIssueUrl(f))}" target="_blank" rel="noopener">Tanı bilgisini geliştiriciye gönder ↗</a> (GitHub’da hazır bir kayıt açılır, sadece “Create” de)</div>`);
   return out.join('');
+}
+
+function debugIssueUrl(f) {
+  const have = {
+    akor: f.accords?.length || 0,
+    nota: ['top', 'middle', 'base', 'all'].reduce((n, k) => n + (f.notes?.[k]?.length || 0), 0),
+    mevsim: Object.values(f.seasons || {}).filter((v) => v != null).length,
+    oy: Object.keys(f.votes || {}).join(',') || '-',
+    hatirlatan: f.remindsOf?.length || 0, benzer: f.alsoLike?.length || 0, yorum: f.reviews?.length || 0,
+  };
+  const fence = '`'.repeat(3);
+  let body = `Sayfa: ${f.url}\n\nGelenler: ${JSON.stringify(have)}\n\n${fence}json\n${JSON.stringify(f.debug, null, 1)}\n${fence}`;
+  if (body.length > 6500) body = body.slice(0, 6500) + '\n…(kısaltıldı)';
+  const repo = 'https://github.com/kriminal11-eng/Perfume';
+  return `${repo}/issues/new?title=${encodeURIComponent('Fragrantica tanı: ' + (f.brand || '') + ' ' + (f.name || ''))}&body=${encodeURIComponent(body)}`;
 }
 
 function textOn(color) {
