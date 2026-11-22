@@ -1,5 +1,5 @@
 // Offline cache: app shell cache-first, data network-first.
-const CACHE = 'pd-v14';
+const CACHE = 'pd-v15';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'capture.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

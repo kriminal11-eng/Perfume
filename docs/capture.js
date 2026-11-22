@@ -205,10 +205,13 @@
   Object.keys(GROUPS).forEach(function (g) {
     if (votes[g] && Object.keys(votes[g]).length >= GROUPS[g].length - 1) return;
     var titleRe = { sentiment: /^(rating|how do you like|what do you think)/i, longevity: /^longevity/i, sillage: /^sillage/i, gender: /^gender/i, price: /^price value/i }[g];
-    var head = leafWith(titleRe, 40)[0];
-    var scope = head, sg = 0;
+    /* Başlık yazısı başka yerlerde de geçebilir (ör. artılar/eksiler: "Sillage may be too subtle for some"):
+       kısa olanları önce dene, oy bulunan ilk başlıkta dur. */
+    var heads = leafWith(titleRe, 40).sort(function (a, b) { return txt(a).length - txt(b).length; });
+    for (var hi = 0; hi < heads.length && !(votes[g] && Object.keys(votes[g]).length >= 2); hi++) {
+    var scope = heads[hi], sg = 0;
     while (scope && sg++ < 5 && leafWith(new RegExp('^' + GROUPS[g][1] + '$', 'i')).filter(function (e) { return scope.contains(e); }).length < 1) scope = scope.parentElement;
-    if (!scope) return;
+    if (!scope) continue;
     var out = {}, found = 0;
     GROUPS[g].forEach(function (label) {
       /* Aynı yazı birden çok yerde olabilir (ör. kaydırıcının uçlarındaki "female … male" etiketleri):
@@ -232,6 +235,7 @@
       if (val != null) { out[label] = val; found++; }
     });
     if (found >= 2) votes[g] = out;
+    }
   });
   data.votes = votes;
 
