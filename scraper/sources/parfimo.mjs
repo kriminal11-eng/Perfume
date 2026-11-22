@@ -40,7 +40,8 @@ export function parseList(html) {
     const brand = stripTags(c.match(/class="producer-name">([\s\S]*?)<\/span>/)?.[1] || '');
     const title = stripTags(c.match(/class="title h3">([\s\S]*?)<\/span>/)?.[1] || '');
     const perex = stripTags(c.match(/class="perex">([\s\S]*?)<\/span>/)?.[1] || '');
-    const img = c.match(/<img src="(https:\/\/data\.parfimo\.bg\/photo\/product_catalog[^"]+)"/)?.[1];
+    const imgRaw = c.match(/data-productlist-catalogpicture-target="picture">\s*<img src="([^"]+)"/)?.[1];
+    const img = imgRaw ? (imgRaw.startsWith('http') ? imgRaw : BASE + imgRaw) : null;
     const priceBox = c.match(/c-product-price"[\s\S]*?<strong>([\s\S]*?)<\/strong>/)?.[1];
     const oldPrice = c.match(/<(?:del|s)[^>]*>([\s\S]*?)<\/(?:del|s)>/)?.[1];
     const discount = stripTags(c.match(/c-product-discountlabel[^>]*>([\s\S]*?)<\/(?:span|div)>/)?.[1] || '');
