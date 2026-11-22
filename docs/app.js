@@ -278,6 +278,15 @@ function viewLibrary() {
   });
   const chip = (k, v, label) => `<button class="chip ${filt[k] === v ? 'on' : ''}" data-f="${k}" data-v="${v}">${label}</button>`;
   return `
+    <div class="fsearch">
+      <h2 class="section" style="margin-top:0">Fragrantica’da ara</h2>
+      <div class="fsearch-row">
+        <input id="fq" type="search" placeholder="Parfüm adı, marka ya da Fragrantica bağlantısı" value="${esc(fragQuery)}" autocomplete="off" enterkeyhint="search">
+        <a class="btn primary" id="fq-go" href="${esc(fragSearch(fragQuery || ''))}" target="_blank" rel="noopener">Ara ↗</a>
+      </div>
+      <div class="sub">Fragrantica’da açılan sonuçtan parfümü seç ve “parfumdefteri” yer imine dokun; bilgiler buraya gelir. Bağlantı yapıştırırsan fotoğrafıyla hemen ekleyebilirsin.</div>
+      <div id="fq-results">${fragSearchResults(fragQuery)}</div>
+    </div>
     <div class="toolbar">
       <div><h2 class="section">Fragrantica kütüphanem</h2><div class="sub">${entries.length} parfümün notaları, mevsimi, kalıcılığı ve yorumları bu cihazda kayıtlı.</div></div>
       <button class="btn" data-howto><svg><use href="#i-plus"/></svg>Nasıl eklenir?</button>
@@ -287,6 +296,52 @@ function viewLibrary() {
       <span style="width:8px;flex:none"></span>${chip('libTime', 'all', 'Gündüz + gece')}${TIMES.map(([k, tr]) => chip('libTime', k, tr)).join('')}
     </div>
     ${list.length ? `<div class="grid">${list.map(fragCard).join('')}</div>` : `<div class="empty"><svg><use href="#i-book"/></svg><p>${entries.length ? 'Bu filtreye uyan parfüm yok.' : 'Henüz Fragrantica kaydı yok. Bir parfümün Fragrantica sayfasında "Parfüm Defteri\'ne ekle" yer imini çalıştır; tüm bilgiler buraya gelir.'}</p>${entries.length ? '' : '<button class="btn primary" data-howto>Kurulumu göster</button>'}</div>`}`;
+}
+
+let fragQuery = '';
+
+// Arama kutusunun altındaki sonuçlar: yapıştırılan Fragrantica bağlantısı ya da kütüphane + mağaza eşleşmeleri.
+// (Fragrantica otomatik sorguya kapalı; asıl arama Fragrantica'nın kendi sayfasında açılır.)
+function fragSearchResults(q) {
+  q = (q || '').trim();
+  if (!q) return '';
+  const id = fragIdFromUrl(q);
+  if (id) {
+    const m = q.match(/\/perfume\/([^/]+)\/(.+)-\d+\.html/);
+    const brand = m ? decodeURIComponent(m[1]).replace(/-/g, ' ') : '';
+    const name = m ? decodeURIComponent(m[2]).replace(/-/g, ' ') : '';
+    const known = S.frag[id];
+    return `<div class="row" style="margin-top:10px;cursor:default">
+      <div class="thumb">${imgTag(fragImg(id), name)}</div>
+      <div class="info"><div class="d-brand" lang="en">${esc(brand)}</div><div class="t">${esc(name)}</div>
+        <div class="btnrow" style="margin-top:6px">
+          <button class="btn small" data-urladd="collection" data-url="${esc(q)}"><svg><use href="#i-check"/></svg>Bende var</button>
+          <button class="btn small" data-urladd="wishlist" data-url="${esc(q)}"><svg><use href="#i-heart"/></svg>Wishlist</button>
+          ${known ? `<button class="btn small" data-open="frag" data-id="${esc(id)}">Bilgileri gör</button>` : `<a class="btn small ghost" href="${esc(q)}" target="_blank" rel="noopener">Bilgileri al ↗</a>`}
+        </div></div></div>`;
+  }
+  const nq = norm(q);
+  const lib = Object.values(S.frag).filter((f) => norm(`${f.brand} ${f.name}`).includes(nq)).slice(0, 6);
+  const shop = products.filter((p) => norm(`${p.brand} ${p.name}`).includes(nq)).slice(0, 6);
+  if (!lib.length && !shop.length) return `<p class="sub" style="margin-top:8px">Kütüphanende ve mağaza yenilerinde “${esc(q)}” yok. <b>Ara ↗</b> ile Fragrantica’da bak.</p>`;
+  return `${lib.length ? `<h3 class="mini-h">Kütüphanende</h3><div class="grid">${lib.map(fragCard).join('')}</div>` : ''}
+    ${shop.length ? `<h3 class="mini-h">Mağaza yenilerinde</h3><div class="grid">${shop.map(productCard).join('')}</div>` : ''}`;
+}
+
+function addFromFragUrl(list, url) {
+  const id = fragIdFromUrl(url);
+  if (!id) return;
+  const ex = itemsByFrag(id)[0];
+  if (ex) { toast(ex.list === 'collection' ? 'Zaten koleksiyonunda' : 'Zaten wishlist’inde'); return; }
+  const m = url.match(/\/perfume\/([^/]+)\/(.+)-\d+\.html/);
+  S[list].unshift({
+    uid: uid(), list, addedAt: new Date().toISOString(),
+    brand: S.frag[id]?.brand || (m ? decodeURIComponent(m[1]).replace(/-/g, ' ') : ''),
+    name: S.frag[id]?.name || (m ? decodeURIComponent(m[2]).replace(/-/g, ' ') : ''),
+    fragId: id, fragUrl: url.split('#')[0], note: '', decant: false,
+  });
+  save();
+  toast(list === 'collection' ? 'Koleksiyona eklendi ✓' : 'Wishlist’e eklendi ♡');
 }
 
 function fragCard(f) {
@@ -817,6 +872,7 @@ document.addEventListener('click', async (e) => {
     save(); return render();
   }
   if (d.delcode) { S.myCodes = S.myCodes.filter((c) => c.id !== d.delcode); save(); return render(); }
+  if (d.urladd) { addFromFragUrl(d.urladd, d.url); $('#fq-results').innerHTML = fragSearchResults(fragQuery); return; }
   if (d.debugcopy) {
     const f = S.frag[d.debugcopy];
     if (f?.debugBig) { try { await navigator.clipboard.writeText('\n\nAYRINTILI DÖKÜM:\n' + '`'.repeat(3) + 'json\n' + JSON.stringify(f.debugBig, null, 1) + '\n' + '`'.repeat(3)); toast('Döküm kopyalandı — GitHub’da yapıştır'); } catch {} }
@@ -838,6 +894,17 @@ document.addEventListener('click', async (e) => {
     toast(S.notify ? 'Bildirimler açıldı' : 'İzin verilmedi');
     return openSettings();
   }
+});
+document.addEventListener('input', (e) => {
+  if (e.target.id !== 'fq') return;
+  fragQuery = e.target.value;
+  const id = fragIdFromUrl(fragQuery);
+  $('#fq-go').href = id ? fragQuery.trim() : fragSearch(fragQuery.trim());
+  $('#fq-go').textContent = id ? 'Aç ↗' : 'Ara ↗';
+  $('#fq-results').innerHTML = fragSearchResults(fragQuery);
+});
+document.addEventListener('keydown', (e) => {
+  if (e.target.id === 'fq' && e.key === 'Enter' && fragQuery.trim()) { e.preventDefault(); $('#fq-go').click(); }
 });
 document.addEventListener('change', (e) => {
   if (e.target.matches('[data-import]') && e.target.files[0]) importData(e.target.files[0]);

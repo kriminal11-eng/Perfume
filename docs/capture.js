@@ -211,10 +211,13 @@
     if (!scope) return;
     var out = {}, found = 0;
     GROUPS[g].forEach(function (label) {
-      var el = leafWith(new RegExp('^' + label.replace(/ /g, '\\s+') + '$', 'i'), 30).filter(function (e) { return scope.contains(e); })[0];
-      if (!el) return;
-      var row = el, val = null;
+      /* Aynı yazı birden çok yerde olabilir (ör. kaydırıcının uçlarındaki "female … male" etiketleri):
+         sayı/çubuk bulunana kadar tüm eşleşmeleri sırayla dene. */
+      var els = leafWith(new RegExp('^' + label.replace(/ /g, '\\s+') + '$', 'i'), 30).filter(function (e) { return scope.contains(e) && !e.closest('[class*="slider"]'); });
+      var val = null;
       var others = GROUPS[g].filter(function (o) { return o !== label; });
+      for (var ei = 0; ei < els.length && val == null; ei++) {
+      var row = els[ei];
       for (var up = 0; up < 3 && row && val == null; up++) {
         row = row.parentElement;
         if (!row) break;
@@ -223,7 +226,8 @@
         if (clash) break;
         var nums = $$('*', row).filter(function (x) { return x.children.length === 0 && /^\d[\d,.]*(k|%)?$/i.test(txt(x)); });
         if (nums.length === 1) { var t = txt(nums[0]).replace(/,/g, '').replace('%', ''); val = /k$/i.test(t) ? parseFloat(t) * 1000 : parseFloat(t); }
-        else { var bars = $$('[style*="width"]', row).filter(function (b) { return widthOf(b) != null; }); if (bars.length === 1) val = widthOf(bars[0]); }
+        else { var bars = $$('[style*="width"]', row).filter(function (b) { return widthOf(b) != null && !b.closest('[class*="slider"]'); }); if (bars.length === 1) val = widthOf(bars[0]); }
+      }
       }
       if (val != null) { out[label] = val; found++; }
     });

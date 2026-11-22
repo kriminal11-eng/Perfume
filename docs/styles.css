@@ -267,3 +267,9 @@ pre.small { white-space: pre-wrap; word-break: break-all; font-size: 11px; backg
 .seg > div { font-size: 12.5px; gap: 4px; }
 .seg .bar { height: 46px; border-radius: 8px; }
 .seg > div span:last-child { font-size: 13px; font-weight: 650; color: var(--ink); }
+
+/* Fragrantica arama kartı */
+.fsearch { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; margin: 4px 0 18px; box-shadow: var(--shadow); }
+.fsearch-row { display: flex; gap: 8px; margin: 8px 0 6px; }
+.fsearch-row input { flex: 1; min-width: 0; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg2); color: var(--ink); font: inherit; }
+.mini-h { font-size: 12px; text-transform: uppercase; letter-spacing: .8px; color: var(--muted); margin: 14px 0 8px; }
