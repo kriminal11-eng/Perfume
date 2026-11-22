@@ -44,6 +44,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 const fragIdFromUrl = (u) => String(u || '').match(/fragrantica\.[a-z.]+\/perfume\/.+?-(\d+)\.html/i)?.[1] || null;
 const fragImg = (id) => (id ? `https://fimgs.net/mdimg/perfume/375x500.${id}.jpg` : null);
+// Kayıtlı resim bu parfümün kendi fimgs resmi değilse (boş yer tutucu vb.) sabit adresi kullan
+const fragImage = (f) => (f ? (f.image && f.id && f.image.includes(`.${f.id}.`) ? f.image : fragImg(f.id)) : null);
 const fragSearch = (s) => `https://www.fragrantica.com/search/?query=${encodeURIComponent(s)}`;
 const fmtPrice = (p) => (p == null ? '' : `${Number(p).toFixed(2).replace(/\.00$/, '')} €`);
 const fmtDate = (iso) => (iso ? new Date(iso).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' }) : '');
@@ -92,7 +94,7 @@ function fragFor(x) {
 }
 function imageFor(x) {
   const f = fragFor(x);
-  return x.photo || x.image || f?.image || fragImg(x.fragId) || null;
+  return x.photo || x.image || fragImage(f) || fragImg(x.fragId) || null;
 }
 
 // ---------- render ----------
@@ -290,7 +292,7 @@ function viewLibrary() {
 function fragCard(f) {
   const owned = itemsByFrag(f.id);
   return `<article class="card" data-open="frag" data-id="${esc(f.id)}">
-    <div class="ph">${imgTag(f.image || fragImg(f.id), f.name)}</div>
+    <div class="ph">${imgTag(fragImage(f), f.name)}</div>
     ${owned.length ? `<span class="shoptag">${owned.some((o) => o.list === 'collection') ? 'Bende var' : 'Wishlist'}</span>` : ''}
     <div class="body">
       <div class="b" lang="en">${esc(f.brand)}</div>
@@ -333,7 +335,7 @@ function openDetail(kind, id, extra) {
   const fragId = f?.id || x?.fragId || (kind === 'frag' ? id : null) || (shop && S.links['shop:' + shop.id]);
   const brand = x?.brand || f?.brand || shop?.brand || extra?.brand || '';
   const name = x?.name || f?.name || shop?.name || extra?.name || '';
-  const img = x?.photo || f?.image || shop?.image || x?.image || fragImg(fragId);
+  const img = x?.photo || fragImage(f) || shop?.image || x?.image || fragImg(fragId);
   const fragUrl = f?.url || x?.fragUrl || extra?.url || null;
   const searchUrl = shop?.fragranticaSearch || fragSearch(`${brand} ${name}`);
   const ctx = { kind, id, shopId: shop?.id, uid: x?.uid, fragId, brand, name, fragUrl, extra };
@@ -382,6 +384,8 @@ function openDetail(kind, id, extra) {
 
 function renderFrag(f) {
   const out = [];
+  const meters = ['longevity', 'sillage', 'gender', 'price'].filter((k) => f.votes?.[k]).map((k) => meter(k, f.votes[k]));
+  if (meters.length) out.push(`<div class="block"><h3>Topluluk oyları</h3><div class="meters">${meters.join('')}</div></div>`);
   if (f.accords?.length) {
     out.push(`<div class="block"><h3>Ana akorlar</h3><div class="accords">${f.accords.map((a) => `<div class="accord" style="background:${esc(a.color || 'var(--accent)')};color:${textOn(a.color)};text-shadow:none;width:${Math.max(30, a.width || 50)}%">${esc(a.name)}</div>`).join('')}</div></div>`);
   }
@@ -404,8 +408,6 @@ function renderFrag(f) {
       ${SEASONS.map(([k, tr]) => cell(k, tr, f.seasons?.[k])).join('')}${TIMES.map(([k, tr]) => cell(k, tr, f.time?.[k])).join('')}
     </div></div>`);
   }
-  const meters = ['longevity', 'sillage', 'gender', 'price'].filter((k) => f.votes?.[k]).map((k) => meter(k, f.votes[k]));
-  if (meters.length) out.push(`<div class="block"><h3>Topluluk oyları</h3><div class="meters">${meters.join('')}</div></div>`);
 
   const sims = (arr, title) => arr?.length ? `<div class="block"><h3>${title}</h3><div class="hscroll">${arr.map((s) => `<div class="sim" data-sim="${esc(s.id)}" data-name="${esc(s.name)}" data-url="${esc(s.url)}"><img src="${esc(s.img || fragImg(s.id))}" alt="" loading="lazy" referrerpolicy="no-referrer"><div>${esc(s.name)}</div></div>`).join('')}</div></div>` : '';
   out.push(sims(f.remindsOf, 'Bu parfüm şunları hatırlatıyor'));

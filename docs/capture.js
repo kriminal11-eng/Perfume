@@ -57,8 +57,9 @@
     var g = data.title.match(/for (women and men|women|men)\s*$/i);
     if (g) data.genderLabel = g[1].toLowerCase();
   }
-  var img = $('img[itemprop="image"]') || $('img[src*="fimgs.net/mdimg/perfume/"]');
-  data.image = img ? abs(img.getAttribute('src')) : 'https://fimgs.net/mdimg/perfume/375x500.' + data.id + '.jpg';
+  /* Şişe fotoğrafı: Fragrantica'nın sabit adresi (perfume/375x500.<id>.jpg) en güvenilir olanı.
+     Sayfadaki ilk resim yeni tasarımda boş yer tutucu ya da başka bir parfüm olabiliyor. */
+  data.image = 'https://fimgs.net/mdimg/perfume/375x500.' + data.id + '.jpg';
   data.rating = num(txt($('[itemprop="ratingValue"]')));
   data.ratingCount = num(txt($('[itemprop="ratingCount"]')));
   var desc = $('[itemprop="description"]');
@@ -99,10 +100,17 @@
   }
 
   /* --- Nota piramidi --- */
+  var slugName = function (href) {
+    var m = String(href || '').match(/\/notes\/(.+?)-\d+\.html/);
+    return m ? decodeURIComponent(m[1]).replace(/-/g, ' ') : '';
+  };
   var noteFrom = function (a) {
-    var im = $('img', a);
-    var name = (im && (im.getAttribute('alt') || im.getAttribute('title'))) || txt(a) || txt(a.parentElement);
-    return { name: (name || '').trim(), img: im ? abs(im.getAttribute('src') || im.getAttribute('data-src')) : null, url: a.href };
+    var im = $('img', a) || (a.parentElement && $('img', a.parentElement));
+    var name = (im && (im.getAttribute('alt') || im.getAttribute('title'))) || txt(a) || slugName(a.getAttribute('href')) || txt(a.parentElement);
+    var nid = String(a.getAttribute('href') || '').match(/-(\d+)\.html/);
+    var src = im ? (im.getAttribute('src') || im.getAttribute('data-src') || '') : '';
+    if (!/sastojci|fimgs/.test(src) && nid) src = 'https://fimgs.net/mdimg/sastojci/t.' + nid[1] + '.jpg';
+    return { name: (name || '').trim().slice(0, 40), img: src ? abs(src) : null, url: a.href };
   };
   var pyramid = $('#pyramid') || d.body;
   var notes = { top: [], middle: [], base: [], all: [] };
@@ -136,8 +144,17 @@
     $$('img').filter(function (im) { return /\/sastojci\//.test(im.getAttribute('src') || im.getAttribute('data-src') || ''); }).forEach(function (im) {
       var a = im.closest('a');
       var holder = im.parentElement;
-      var name = im.getAttribute('alt') || im.getAttribute('title') || txt(a) || txt(holder) || txt(holder && holder.parentElement);
+      var name = im.getAttribute('alt') || im.getAttribute('title') || txt(a) || (a && slugName(a.getAttribute('href'))) || txt(holder) || txt(holder && holder.parentElement);
       notes[levelOf(im)].push({ name: (name || '').trim(), img: abs(im.getAttribute('src') || im.getAttribute('data-src')), url: a ? a.href : null });
+    });
+  }
+  if (!notes.top.length && !notes.middle.length && !notes.base.length && !notes.all.length) {
+    var heads3 = leafWith(/^(top|middle|heart|base) notes$/i, 20);
+    $$('a[href*="/notes/"]').forEach(function (a) {
+      if (a.closest('[itemprop="description"]')) return;
+      var lvl = 'all';
+      heads3.forEach(function (h) { if (h.compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING) lvl = /top/i.test(txt(h)) ? 'top' : /base/i.test(txt(h)) ? 'base' : 'middle'; });
+      notes[lvl].push(noteFrom(a));
     });
   }
   var dedupe = function (arr) { var s = {}; return arr.filter(function (n) { if (!n.name || s[n.name]) return false; s[n.name] = 1; return true; }); };
@@ -197,11 +214,15 @@
       var el = leafWith(new RegExp('^' + label.replace(/ /g, '\\s+') + '$', 'i'), 30).filter(function (e) { return scope.contains(e); })[0];
       if (!el) return;
       var row = el, val = null;
+      var others = GROUPS[g].filter(function (o) { return o !== label; });
       for (var up = 0; up < 3 && row && val == null; up++) {
         row = row.parentElement;
         if (!row) break;
-        var nums = $$('*', row).filter(function (x) { return x.children.length === 0 && /^\d[\d,.]*k?$/i.test(txt(x)); });
-        if (nums.length === 1) { var t = txt(nums[0]).replace(/,/g, ''); val = /k$/i.test(t) ? parseFloat(t) * 1000 : parseFloat(t); }
+        var rowText = txt(row).toLowerCase();
+        var clash = others.some(function (o) { return new RegExp('(^|[^a-z])' + o + '([^a-z]|$)').test(rowText.replace(new RegExp('(^|[^a-z])' + label + '([^a-z]|$)'), ' ')); });
+        if (clash) break;
+        var nums = $$('*', row).filter(function (x) { return x.children.length === 0 && /^\d[\d,.]*(k|%)?$/i.test(txt(x)); });
+        if (nums.length === 1) { var t = txt(nums[0]).replace(/,/g, '').replace('%', ''); val = /k$/i.test(t) ? parseFloat(t) * 1000 : parseFloat(t); }
         else { var bars = $$('[style*="width"]', row).filter(function (b) { return widthOf(b) != null; }); if (bars.length === 1) val = widthOf(bars[0]); }
       }
       if (val != null) { out[label] = val; found++; }
@@ -242,6 +263,31 @@
       text: txt(body).slice(0, 900)
     };
   }).filter(function (r) { return r.text.length > 20; }).slice(0, 10);
+
+  if (!data.reviews.length) {
+    var rh = leafWith(/(^|\s)reviews?\b/i, 60).filter(function (h) { return !/perfumes:|members:/i.test(txt(h.parentElement || h)); });
+    var descEl = $('[itemprop="description"]');
+    var seenT = {};
+    /* en alttaki "reviews" başlığından başla; ardından metin bloğu yoksa bir yukarıdakini dene */
+    var candidatesAfter = function (startEl) { return $$('p, div, span').filter(function (e) {
+      if (!(startEl.compareDocumentPosition(e) & Node.DOCUMENT_POSITION_FOLLOWING)) return false;
+      if (descEl && descEl.contains(e)) return false;
+      if (e.closest('#pd-note')) return false;
+      var t = txt(e);
+      if (t.length < 120 || t.length > 4000) return false;
+      /* en içteki metin bloğu: kendisi kadar uzun metin taşıyan bir çocuğu olmasın */
+      return !Array.prototype.some.call(e.children, function (c) { return txt(c).length > t.length * 0.8; });
+    }); };
+    var cands = [];
+    for (var ri = rh.length - 1; ri >= 0 && !cands.length; ri--) cands = candidatesAfter(rh[ri]);
+    data.reviews = cands.map(function (e) {
+      var card = e, g = 0;
+      while (card.parentElement && g++ < 4 && !$('a[href*="/member/"]', card)) card = card.parentElement;
+      var au = $('a[href*="/member/"]', card);
+      var tm = $('time', card);
+      return { author: txt(au), date: tm ? (tm.getAttribute('datetime') || txt(tm)) : '', text: txt(e).slice(0, 900) };
+    }).filter(function (r) { if (seenT[r.text.slice(0, 60)]) return false; seenT[r.text.slice(0, 60)] = 1; return true; }).slice(0, 10);
+  }
 
   /* --- Tanı bilgisi: eksik bölümlerin sayfa yapısını görmek için küçük HTML parçaları --- */
   var snip = function (re) {

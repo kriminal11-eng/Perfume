@@ -217,7 +217,7 @@ h2.section { font-size: 20px; margin: 8px 0 4px; }
 .vbar > i { display: block; height: 100%; border-radius: 3px; }
 
 .meters { display: grid; grid-template-columns: 1fr; gap: 12px; }
-@media (min-width: 560px) { .meters { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 900px) { .meters { grid-template-columns: 1fr 1fr; } }
 .meter .mt { display: flex; justify-content: space-between; font-size: 13px; font-weight: 650; margin-bottom: 5px; }
 .meter .mt b { color: var(--accent); }
 .seg { display: flex; gap: 3px; }
@@ -257,3 +257,13 @@ pre.small { white-space: pre-wrap; word-break: break-all; font-size: 11px; backg
 .toast-undo { border: 0; background: none; color: var(--accent); font-weight: 700; padding: 4px 2px; cursor: pointer; }
 .row .row-del { flex: none; align-self: center; }
 .row .row-del:hover { color: #c2416b; }
+
+/* Topluluk oyları: büyük ve okunaklı */
+.meters { gap: 18px; }
+.meter { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 12px 10px; }
+.meter .mt { font-size: 16px; margin-bottom: 10px; }
+.meter .mt b { font-size: 16px; }
+.seg { gap: 6px; }
+.seg > div { font-size: 12.5px; gap: 4px; }
+.seg .bar { height: 46px; border-radius: 8px; }
+.seg > div span:last-child { font-size: 13px; font-weight: 650; color: var(--ink); }
