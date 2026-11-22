@@ -3,6 +3,7 @@
 // Kişisel veriler (koleksiyon, wishlist, Fragrantica kayıtları): bu cihazın localStorage'ı.
 
 const KEY = 'pd.v1';
+const APP_VERSION = 17;
 const SHOPS = { parfium: 'Parfium', parfimo: 'Parfimo', notino: 'Notino' };
 const SEASONS = [
   ['winter', 'Kış'], ['spring', 'İlkbahar'], ['summer', 'Yaz'], ['fall', 'Sonbahar'],
@@ -751,7 +752,7 @@ async function openSettings() {
       <p class="sub">Telefonuna anlık bildirim için günlük görev şunları yapar: (1) GitHub’da bir “issue” açar — GitHub mobil uygulaması bildirim gönderir; (2) isteğe bağlı Telegram botu ayarlarsan Telegram’dan mesaj atar. Uygulama açıldığında yeni ürün/kod varsa ayrıca burada bildirim gösterilir.</p>
       <button class="btn small" data-notify>${notifyState === 'granted' ? '✓ Tarayıcı bildirimleri açık' : 'Tarayıcı bildirimlerine izin ver'}</button>
     </div>
-    ${isAndroidApp() ? `<div class="block"><h3>Bağlantılar</h3>
+    ${isAndroid() ? `<div class="block"><h3>Bağlantılar</h3>
       <label class="check"><input type="checkbox" data-chromelinks ${S.chromeLinks ? 'checked' : ''}> Dış bağlantıları doğrudan Chrome’da aç</label>
       <p class="sub">Açıkken Fragrantica ve mağaza bağlantıları üstte çubuklu küçük tarayıcı yerine doğrudan Chrome’da açılır; yer imi hemen kullanılabilir. Sorun olursa kapat.</p>
     </div>` : ''}
@@ -763,6 +764,7 @@ async function openSettings() {
       <div class="btnrow"><button class="btn small" data-export>Dışa aktar (.json)</button><label class="btn small">İçe aktar<input type="file" accept="application/json,.json" data-import hidden></label></div>
       <p class="sub">${S.collection.length} koleksiyon · ${S.wishlist.length} wishlist · ${Object.keys(S.frag).length} Fragrantica kaydı</p>
     </div>
+    <div class="block sub">Sürüm ${APP_VERSION} · Android: ${isAndroid() ? 'evet' : 'hayır'} · Kurulu uygulama: ${isStandalone() ? 'evet' : 'hayır'} · Chrome’a yönlendirme: ${isAndroidApp() && S.chromeLinks ? 'açık' : 'kapalı'}</div>
     <div class="block"><h3>Mağaza takibi</h3>
       <div class="status">${Object.entries(meta?.status || {}).map(([k, s]) => `<span class="stat ${s.ok ? '' : 'bad'}"><i class="dot"></i>${esc(s.label || k)}: ${s.ok ? s.count + ' ürün' : esc(s.error)}</span>`).join('') || '<span class="sub">Henüz çalışmadı</span>'}</div>
     </div>
@@ -901,9 +903,16 @@ document.addEventListener('click', async (e) => {
 });
 // Android'de ana ekrana kurulu uygulama dış bağlantıları "Custom Tab"da (üstte çubuklu küçük tarayıcı) açar.
 // intent:// adresiyle bağlantıyı doğrudan Chrome uygulamasına gönderiyoruz; Chrome yoksa normal adrese düşer.
-function isAndroidApp() {
-  return /Android/i.test(navigator.userAgent) && matchMedia('(display-mode: standalone)').matches;
+// "Masaüstü sitesi" modunda tarayıcı kendini Linux bilgisayar gibi tanıtır; dokunmatik + Linux'u da Android say.
+function isAndroid() {
+  return /Android/i.test(navigator.userAgent) || navigator.userAgentData?.platform === 'Android' ||
+    (/Linux/i.test(navigator.platform || navigator.userAgent) && matchMedia('(pointer: coarse)').matches);
 }
+function isStandalone() {
+  return matchMedia('(display-mode: standalone)').matches || matchMedia('(display-mode: fullscreen)').matches ||
+    matchMedia('(display-mode: minimal-ui)').matches || document.referrer.startsWith('android-app://');
+}
+function isAndroidApp() { return isAndroid() && isStandalone(); }
 function chromeIntent(url) {
   const u = new URL(url);
   return `intent://${u.host}${u.pathname}${u.search}${u.hash}#Intent;scheme=${u.protocol.replace(':', '')};package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(url)};end`;
