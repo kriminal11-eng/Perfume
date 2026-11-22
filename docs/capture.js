@@ -303,26 +303,29 @@
       voteNames: $$('.vote-button-name').length, voteLegends: $$('.vote-button-legend').length,
       reviewBoxes: $$('.fragrance-review-box').length, itempropReview: $$('[itemprop="review"]').length, pyramid: !!$('#pyramid')
     },
-    notes: snip(/^(top notes|middle notes|base notes|fragrance notes|perfume pyramid)$/i),
-    longevity: snip(/^longevity$/i), sillage: snip(/^sillage$/i), price: snip(/^price value$/i),
-    gender: snip(/^gender$/i), reminds: snip(/reminds me of/i), reviews: snip(/^(all reviews|perfume reviews|reviews)/i)
+    reviewsHeads: leafWith(/reviews?\b/i, 80).map(function (e) { return txt(e).slice(0, 60); }).slice(0, 12)
   };
 
-  var skeleton = function (re) {
-    var el = leafWith(re, 80)[0];
+  var skeleton = function (re, last) {
+    var els = leafWith(re, 80).filter(function (e) { return !/members:|online:/i.test(txt(e.parentElement && e.parentElement.parentElement || e)); });
+    var el = last ? els[els.length - 1] : els[0];
     if (!el) return null;
     var box = el, g = 0;
     while (box.parentElement && g++ < 8 && box.parentElement.outerHTML.length < 6000) box = box.parentElement;
     var c = box.cloneNode(true);
     $$('svg, script, style, noscript, iframe', c).forEach(function (x) { x.replaceWith(document.createTextNode('')); });
     $$('*', c).forEach(function (x) { var cl = x.getAttribute('class'); if (cl && cl.length > 50) x.setAttribute('class', cl.slice(0, 50)); });
-    return c.outerHTML.replace(/\s+/g, ' ').slice(0, 5000);
+    return c.outerHTML.replace(/\s+/g, ' ').replace(/ (class|style)=""/g, '').slice(0, 3500);
   };
   data.debugBig = {
     accords: skeleton(/^main accords$/i), longevity: skeleton(/^longevity/i), sillage: skeleton(/^sillage/i),
     gender: skeleton(/^gender/i), price: skeleton(/^price value/i), reminds: skeleton(/reminds me of/i),
-    rating: skeleton(/^(rating|perfume rating)/i), reviews: skeleton(/reviews?\b/i),
-    reviewText: (function () { var r = $$('p, div').filter(function (e) { return e.children.length <= 1 && txt(e).length > 250; })[0]; return r ? (r.parentElement || r).outerHTML.replace(/\s+/g, ' ').slice(0, 3000) : null; })()
+    rating: skeleton(/^(rating|perfume rating)/i), reviews: skeleton(/reviews?\b/i, true),
+    reviewText: (function () {
+      var desc = $('[itemprop="description"]');
+      var longs = $$('p, div').filter(function (e) { return e.children.length <= 2 && txt(e).length > 200 && !(desc && desc.contains(e)) && !e.closest('#pd-note'); });
+      return longs.slice(-2).map(function (r) { var box = r.parentElement && r.parentElement.parentElement || r; return box.outerHTML.replace(/\s+/g, ' ').slice(0, 3000); });
+    })()
   };
 
   /* --- Uygulamaya gönder (sıkıştırılmış, URL hash ile) --- */
