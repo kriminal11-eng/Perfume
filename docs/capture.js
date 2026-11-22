@@ -57,8 +57,9 @@
     var g = data.title.match(/for (women and men|women|men)\s*$/i);
     if (g) data.genderLabel = g[1].toLowerCase();
   }
-  var img = $('img[itemprop="image"]') || $('img[src*="fimgs.net/mdimg/perfume/"]');
-  data.image = img ? abs(img.getAttribute('src')) : 'https://fimgs.net/mdimg/perfume/375x500.' + data.id + '.jpg';
+  /* Şişe fotoğrafı: Fragrantica'nın sabit adresi (perfume/375x500.<id>.jpg) en güvenilir olanı.
+     Sayfadaki ilk resim yeni tasarımda boş yer tutucu ya da başka bir parfüm olabiliyor. */
+  data.image = 'https://fimgs.net/mdimg/perfume/375x500.' + data.id + '.jpg';
   data.rating = num(txt($('[itemprop="ratingValue"]')));
   data.ratingCount = num(txt($('[itemprop="ratingCount"]')));
   var desc = $('[itemprop="description"]');

@@ -44,6 +44,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 const fragIdFromUrl = (u) => String(u || '').match(/fragrantica\.[a-z.]+\/perfume\/.+?-(\d+)\.html/i)?.[1] || null;
 const fragImg = (id) => (id ? `https://fimgs.net/mdimg/perfume/375x500.${id}.jpg` : null);
+// Kayıtlı resim bu parfümün kendi fimgs resmi değilse (boş yer tutucu vb.) sabit adresi kullan
+const fragImage = (f) => (f ? (f.image && f.id && f.image.includes(`.${f.id}.`) ? f.image : fragImg(f.id)) : null);
 const fragSearch = (s) => `https://www.fragrantica.com/search/?query=${encodeURIComponent(s)}`;
 const fmtPrice = (p) => (p == null ? '' : `${Number(p).toFixed(2).replace(/\.00$/, '')} €`);
 const fmtDate = (iso) => (iso ? new Date(iso).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' }) : '');
@@ -92,7 +94,7 @@ function fragFor(x) {
 }
 function imageFor(x) {
   const f = fragFor(x);
-  return x.photo || x.image || f?.image || fragImg(x.fragId) || null;
+  return x.photo || x.image || fragImage(f) || fragImg(x.fragId) || null;
 }
 
 // ---------- render ----------
@@ -290,7 +292,7 @@ function viewLibrary() {
 function fragCard(f) {
   const owned = itemsByFrag(f.id);
   return `<article class="card" data-open="frag" data-id="${esc(f.id)}">
-    <div class="ph">${imgTag(f.image || fragImg(f.id), f.name)}</div>
+    <div class="ph">${imgTag(fragImage(f), f.name)}</div>
     ${owned.length ? `<span class="shoptag">${owned.some((o) => o.list === 'collection') ? 'Bende var' : 'Wishlist'}</span>` : ''}
     <div class="body">
       <div class="b" lang="en">${esc(f.brand)}</div>
@@ -333,7 +335,7 @@ function openDetail(kind, id, extra) {
   const fragId = f?.id || x?.fragId || (kind === 'frag' ? id : null) || (shop && S.links['shop:' + shop.id]);
   const brand = x?.brand || f?.brand || shop?.brand || extra?.brand || '';
   const name = x?.name || f?.name || shop?.name || extra?.name || '';
-  const img = x?.photo || f?.image || shop?.image || x?.image || fragImg(fragId);
+  const img = x?.photo || fragImage(f) || shop?.image || x?.image || fragImg(fragId);
   const fragUrl = f?.url || x?.fragUrl || extra?.url || null;
   const searchUrl = shop?.fragranticaSearch || fragSearch(`${brand} ${name}`);
   const ctx = { kind, id, shopId: shop?.id, uid: x?.uid, fragId, brand, name, fragUrl, extra };
