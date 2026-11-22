@@ -382,6 +382,8 @@ function openDetail(kind, id, extra) {
 
 function renderFrag(f) {
   const out = [];
+  const meters = ['longevity', 'sillage', 'gender', 'price'].filter((k) => f.votes?.[k]).map((k) => meter(k, f.votes[k]));
+  if (meters.length) out.push(`<div class="block"><h3>Topluluk oyları</h3><div class="meters">${meters.join('')}</div></div>`);
   if (f.accords?.length) {
     out.push(`<div class="block"><h3>Ana akorlar</h3><div class="accords">${f.accords.map((a) => `<div class="accord" style="background:${esc(a.color || 'var(--accent)')};color:${textOn(a.color)};text-shadow:none;width:${Math.max(30, a.width || 50)}%">${esc(a.name)}</div>`).join('')}</div></div>`);
   }
@@ -404,8 +406,6 @@ function renderFrag(f) {
       ${SEASONS.map(([k, tr]) => cell(k, tr, f.seasons?.[k])).join('')}${TIMES.map(([k, tr]) => cell(k, tr, f.time?.[k])).join('')}
     </div></div>`);
   }
-  const meters = ['longevity', 'sillage', 'gender', 'price'].filter((k) => f.votes?.[k]).map((k) => meter(k, f.votes[k]));
-  if (meters.length) out.push(`<div class="block"><h3>Topluluk oyları</h3><div class="meters">${meters.join('')}</div></div>`);
 
   const sims = (arr, title) => arr?.length ? `<div class="block"><h3>${title}</h3><div class="hscroll">${arr.map((s) => `<div class="sim" data-sim="${esc(s.id)}" data-name="${esc(s.name)}" data-url="${esc(s.url)}"><img src="${esc(s.img || fragImg(s.id))}" alt="" loading="lazy" referrerpolicy="no-referrer"><div>${esc(s.name)}</div></div>`).join('')}</div></div>` : '';
   out.push(sims(f.remindsOf, 'Bu parfüm şunları hatırlatıyor'));
