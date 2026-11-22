@@ -5,7 +5,10 @@
    Yalnızca sizin tarayıcınızda, sizin açtığınız sayfada çalışır. */
 (async function () {
   var APP = '__APP_URL__';
-  var note = document.createElement('div');
+  /* Kısa yükleyici ile <script src=".../capture.js"> olarak yüklendiyse adres betiğin kendi konumundan gelir */
+  if (APP.charAt(0) === '_' && document.currentScript) APP = new URL('./', document.currentScript.src).href;
+  var note = document.getElementById('pd-note') || document.createElement('div');
+  note.id = 'pd-note';
   note.textContent = 'Parfüm Defteri: bilgiler okunuyor…';
   note.setAttribute('style', 'position:fixed;left:12px;right:12px;top:12px;z-index:2147483647;background:#9b5a7a;color:#fff;font:600 16px/1.4 sans-serif;padding:14px 16px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.3);text-align:center');
   document.body.appendChild(note);

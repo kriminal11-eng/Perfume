@@ -642,12 +642,16 @@ async function handleImport() {
 // ---------- settings ----------
 async function openSettings() {
   const appUrl = location.origin + location.pathname;
-  let bm = '#';
+  let bm = '#', bmLong = '#';
   try {
     const src = await fetch('capture.js').then((r) => r.text());
-    bm = 'javascript:' + encodeURIComponent(src.replace('__APP_URL__', appUrl));
+    bmLong = 'javascript:' + encodeURIComponent(src.replace('__APP_URL__', appUrl));
   } catch {}
+  // Kısa yükleyici: telefon tarayıcıları çok uzun yer imlerini çalıştırmayabiliyor.
+  const loader = `(function(){var n=document.createElement('div');n.id='pd-note';n.textContent='Parfüm Defteri yükleniyor…';n.style.cssText='position:fixed;top:12px;left:12px;right:12px;z-index:2147483647;background:#9b5a7a;color:#fff;padding:14px;border-radius:12px;font:600 16px sans-serif;text-align:center';document.body.appendChild(n);var s=document.createElement('script');s.src='${appUrl}capture.js?t='+Date.now();s.onerror=function(){n.style.background='#b3261e';n.textContent='Parfüm Defteri: kod yüklenemedi (site engelliyor olabilir)'};document.body.appendChild(s);})();`;
+  bm = 'javascript:' + encodeURIComponent(loader);
   openSettings.bm = bm;
+  openSettings.bmLong = bmLong;
   const notifyState = 'Notification' in window ? Notification.permission : 'unsupported';
   openSheet(`
     <h2 class="section">Ayarlar</h2>
@@ -662,7 +666,8 @@ async function openSettings() {
       <button class="btn small" data-copybm><svg><use href="#i-copy"/></svg>Kodu kopyala</button>
       <details style="margin-top:8px"><summary class="sub">Kopyalama çalışmazsa kodu göster</summary>
         <textarea readonly onclick="this.select()" style="width:100%;height:90px;font-size:11px;margin-top:6px">${esc(bm)}</textarea>
-        <div class="sub">Kod <b>javascript:</b> ile başlamalı; yer iminin adresiyle aynı olmalı. Sürüm: ${bm.length} karakter.</div>
+        <div class="sub">Kod <b>javascript:</b> ile başlamalı (${bm.length} karakter).</div>
+        <button class="btn small ghost" data-copybmlong style="margin-top:6px">Uzun (çevrimdışı) sürümü kopyala</button>
       </details>
     </div>
     <div class="block"><h3>Bildirimler</h3>
@@ -790,6 +795,7 @@ document.addEventListener('click', async (e) => {
     save(); return render();
   }
   if (d.delcode) { S.myCodes = S.myCodes.filter((c) => c.id !== d.delcode); save(); return render(); }
+  if (d.copybmlong !== undefined) { try { await navigator.clipboard.writeText(openSettings.bmLong); toast('Uzun kod kopyalandı'); } catch { toast('Kopyalanamadı'); } return; }
   if (d.copybm !== undefined) {
     if (!openSettings.bm || openSettings.bm === '#') return toast('Kod yüklenemedi, internet bağlantısını kontrol edip Ayarlar’ı yeniden aç');
     try { await navigator.clipboard.writeText(openSettings.bm); toast('Yer imi kodu kopyalandı'); }
