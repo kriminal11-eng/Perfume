@@ -800,7 +800,7 @@ function fitPhone() {
 (async function boot() {
   fitPhone();
   applyTheme();
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then((r) => r.update()).catch(() => {});
   await loadData();
   const imported = await handleImport();
   if (!imported) render();
