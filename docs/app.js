@@ -307,7 +307,12 @@ function fragCard(f) {
 function openSheet(html) {
   $('#sheet-body').innerHTML = html;
   $('#sheet').classList.remove('hidden');
-  $('.sheet-panel').scrollTop = 0;
+  const panel = $('.sheet-panel');
+  // Ölçekli (masaüstü modu) görünümde vh birimi de büyüyor ve panelin üstü ekran dışına taşıyor:
+  // yüksekliği gerçek ekran yüksekliğine göre piksel olarak ver.
+  const z = parseFloat(document.documentElement.style.zoom) || 1;
+  panel.style.maxHeight = Math.floor((innerHeight * 0.94) / z) + 'px';
+  panel.scrollTop = 0;
   document.body.style.overflow = 'hidden';
 }
 function closeSheet() {

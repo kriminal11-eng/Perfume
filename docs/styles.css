@@ -217,7 +217,7 @@ h2.section { font-size: 20px; margin: 8px 0 4px; }
 .vbar > i { display: block; height: 100%; border-radius: 3px; }
 
 .meters { display: grid; grid-template-columns: 1fr; gap: 12px; }
-@media (min-width: 900px) { .meters { grid-template-columns: 1fr 1fr; } }
+/* oylar her zaman tek sütun: panel en fazla 760px ve ölçekli görünümde taşmasın */
 .meter .mt { display: flex; justify-content: space-between; font-size: 13px; font-weight: 650; margin-bottom: 5px; }
 .meter .mt b { color: var(--accent); }
 .seg { display: flex; gap: 3px; }
