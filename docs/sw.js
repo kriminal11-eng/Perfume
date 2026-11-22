@@ -1,5 +1,5 @@
 // Offline cache: app shell cache-first, data network-first.
-const CACHE = 'pd-v2';
+const CACHE = 'pd-v4';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'capture.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -13,7 +13,7 @@ self.addEventListener('fetch', (e) => {
   const isData = url.pathname.includes('/data/');
   // network-first (fresh daily data / app updates), cache fallback when offline
   e.respondWith(
-    fetch(e.request)
+    fetch(e.request, { cache: 'no-cache' })
       .then((res) => {
         const copy = res.clone();
         caches.open(CACHE).then((c) => c.put(e.request, copy));
