@@ -20,7 +20,7 @@ const GENDER_TR = { female: 'Kadın', male: 'Erkek', unisex: 'Unisex', women: 'K
 // ---------- state ----------
 const defaults = () => ({
   collection: [], wishlist: [], frag: {}, links: {}, myCodes: [],
-  lastVisit: null, lastCodesVisit: null, pendingLink: null, theme: 'auto', notify: false,
+  lastVisit: null, lastCodesVisit: null, pendingLink: null, theme: 'auto', notify: false, chromeLinks: true,
 });
 let S = load();
 let products = [], codes = [], meta = null;
@@ -751,6 +751,10 @@ async function openSettings() {
       <p class="sub">Telefonuna anlık bildirim için günlük görev şunları yapar: (1) GitHub’da bir “issue” açar — GitHub mobil uygulaması bildirim gönderir; (2) isteğe bağlı Telegram botu ayarlarsan Telegram’dan mesaj atar. Uygulama açıldığında yeni ürün/kod varsa ayrıca burada bildirim gösterilir.</p>
       <button class="btn small" data-notify>${notifyState === 'granted' ? '✓ Tarayıcı bildirimleri açık' : 'Tarayıcı bildirimlerine izin ver'}</button>
     </div>
+    ${isAndroidApp() ? `<div class="block"><h3>Bağlantılar</h3>
+      <label class="check"><input type="checkbox" data-chromelinks ${S.chromeLinks ? 'checked' : ''}> Dış bağlantıları doğrudan Chrome’da aç</label>
+      <p class="sub">Açıkken Fragrantica ve mağaza bağlantıları üstte çubuklu küçük tarayıcı yerine doğrudan Chrome’da açılır; yer imi hemen kullanılabilir. Sorun olursa kapat.</p>
+    </div>` : ''}
     <div class="block"><h3>Görünüm</h3>
       <div class="chips">${['auto', 'light', 'dark'].map((t) => `<button class="chip ${S.theme === t ? 'on' : ''}" data-theme="${t}">${{ auto: 'Otomatik', light: 'Açık', dark: 'Koyu' }[t]}</button>`).join('')}</div>
     </div>
@@ -894,6 +898,26 @@ document.addEventListener('click', async (e) => {
     toast(S.notify ? 'Bildirimler açıldı' : 'İzin verilmedi');
     return openSettings();
   }
+});
+// Android'de ana ekrana kurulu uygulama dış bağlantıları "Custom Tab"da (üstte çubuklu küçük tarayıcı) açar.
+// intent:// adresiyle bağlantıyı doğrudan Chrome uygulamasına gönderiyoruz; Chrome yoksa normal adrese düşer.
+function isAndroidApp() {
+  return /Android/i.test(navigator.userAgent) && matchMedia('(display-mode: standalone)').matches;
+}
+function chromeIntent(url) {
+  const u = new URL(url);
+  return `intent://${u.host}${u.pathname}${u.search}${u.hash}#Intent;scheme=${u.protocol.replace(':', '')};package=com.android.chrome;S.browser_fallback_url=${encodeURIComponent(url)};end`;
+}
+document.addEventListener('click', (e) => {
+  if (e.defaultPrevented || !S.chromeLinks || !isAndroidApp()) return;
+  const a = e.target.closest('a[href]');
+  if (!a || a.target !== '_blank' || !/^https?:/i.test(a.href)) return;
+  if (new URL(a.href).origin === location.origin) return;
+  e.preventDefault();
+  location.href = chromeIntent(a.href);
+});
+document.addEventListener('change', (e) => {
+  if (e.target.matches('[data-chromelinks]')) { S.chromeLinks = e.target.checked; save(); toast(S.chromeLinks ? 'Bağlantılar Chrome’da açılacak' : 'Bağlantılar uygulama içinde açılacak'); }
 });
 document.addEventListener('input', (e) => {
   if (e.target.id !== 'fq') return;
