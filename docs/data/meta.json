@@ -1,17 +1,17 @@
 {
- "lastRun": "2026-11-22T07:39:21.113Z",
+ "lastRun": "2026-11-23T07:58:36.377Z",
  "status": {
   "parfium": {
    "ok": true,
-   "count": 363,
-   "at": "2026-11-22T07:39:21.113Z",
+   "count": 357,
+   "at": "2026-11-23T07:58:36.377Z",
    "label": "Parfium.bg",
    "home": "https://parfium.bg/collections/all?sort_by=created-descending"
   },
   "parfimo": {
    "ok": true,
-   "count": 132,
-   "at": "2026-11-22T07:39:21.113Z",
+   "count": 130,
+   "at": "2026-11-23T07:58:36.377Z",
    "label": "Parfimo.bg",
    "home": "https://parfimo.bg/parfyumi/?dynamic_filter[labels][8]=8"
   },
@@ -19,11 +19,11 @@
    "ok": false,
    "blocked": true,
    "error": "notino: Cloudflare bot koruması (otomatik erişim engelli)",
-   "at": "2026-11-22T07:39:21.113Z",
+   "at": "2026-11-23T07:58:36.377Z",
    "label": "Notino.bg",
    "home": "https://www.notino.bg/novinki/"
   }
  },
- "newToday": 0,
+ "newToday": 7,
  "newCodes": []
 }
