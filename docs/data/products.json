@@ -1,5 +1,198 @@
 [
  {
+  "id": "parfimo:709685",
+  "shop": "parfimo",
+  "brand": "Biotherm",
+  "name": "L'Eau Eau de Toilette за жени 100 ml",
+  "url": "https://parfimo.bg/biotherm-l-eau-eau-de-toilette-za-zeni-100-ml_z709685/",
+  "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
+  "price": 34.5,
+  "oldPrice": null,
+  "discount": null,
+  "currency": "EUR",
+  "available": true,
+  "type": "Дамска тоалетна вода",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": null,
+  "gender": "female",
+  "concentration": "EDT",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Biotherm%20L'Eau",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfimo:1255508",
+  "shop": "parfimo",
+  "brand": "Arabiyat Prestige",
+  "name": "Bois Blanc Парфюмна вода 100 ml",
+  "url": "https://parfimo.bg/arabiyat-prestige-bois-blanc-parfumna-voda-100-ml_z1255508/",
+  "image": "https://data.parfimo.bg/photo/product_catalog/163779/photo.desktop.bg?1793969454",
+  "price": 28,
+  "oldPrice": null,
+  "discount": "-13 %",
+  "currency": "EUR",
+  "available": true,
+  "type": "Парфюмна вода UNISEX",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": null,
+  "gender": "unisex",
+  "concentration": "EDP",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Arabiyat%20Prestige%20Bois%20Blanc",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfimo:1275386",
+  "shop": "parfimo",
+  "brand": "Jo Malone",
+  "name": "Lime Basil & Mandarin Ароматна свещ 200 гр",
+  "url": "https://parfimo.bg/jo-malone-lime-basil-mandarin-aromatna-sves-200-gr_z1275386/",
+  "image": "https://data.parfimo.bg/photo/product_catalog/124798/photo.desktop.bg?1785529229",
+  "price": 47,
+  "oldPrice": null,
+  "discount": null,
+  "currency": "EUR",
+  "available": true,
+  "type": "Парфюмирана свещ",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": null,
+  "gender": null,
+  "concentration": null,
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jo%20Malone%20Lime%20Basil%20%26%20Mandarin%20200",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfimo:1269939",
+  "shop": "parfimo",
+  "brand": "Trussardi",
+  "name": "Donna Eau de Parfum за жени 30 ml",
+  "url": "https://parfimo.bg/trussardi-donna-eau-de-parfum-za-zeni-30-ml_z1269939/",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164555/photo.desktop.bg?1795177068",
+  "price": 22.5,
+  "oldPrice": null,
+  "discount": null,
+  "currency": "EUR",
+  "available": true,
+  "type": "Дамска парфюмна вода",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": 4.9,
+  "gender": "female",
+  "concentration": "EDP",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Donna",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfimo:1272956",
+  "shop": "parfimo",
+  "brand": "Marc Jacobs",
+  "name": "Daisy Eau So Fresh комплект за жени Eau de Toilette 75 ml + Лосион за тяло 75 ml",
+  "url": "https://parfimo.bg/marc-jacobs-daisy-eau-so-fresh-komplekt-za-zeni-eau-de-toilette-75-ml-losion-za-talo-75-ml_z1272956/",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164841/photo.desktop.bg?1795549901",
+  "price": 43,
+  "oldPrice": null,
+  "discount": null,
+  "currency": "EUR",
+  "available": true,
+  "type": "Дамски подаръчен комплект EDT",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": null,
+  "gender": "female",
+  "concentration": "EDT",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Marc%20Jacobs%20Daisy%20Eau%20So%20Fresh",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfimo:786991",
+  "shop": "parfimo",
+  "brand": "True Religion",
+  "name": "True Religion Eau de Parfum за жени 100 ml",
+  "url": "https://parfimo.bg/true-religion-true-religion-eau-de-parfum-za-zeni-100-ml_z786991/",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164917/photo.desktop.bg?1795690095",
+  "price": 23,
+  "oldPrice": null,
+  "discount": null,
+  "currency": "EUR",
+  "available": true,
+  "type": "Дамска парфюмна вода",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": null,
+  "gender": "female",
+  "concentration": "EDP",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=True%20Religion%20True%20Religion",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfimo:1247409",
+  "shop": "parfimo",
+  "brand": "Karl Lagerfeld",
+  "name": "Urban Green Eau de Parfum за мъже 100 ml",
+  "url": "https://parfimo.bg/karl-lagerfeld-urban-green-eau-de-parfum-za-m-ze-100-ml_z1247409/",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164604/photo.desktop.bg?1795180888",
+  "price": 21,
+  "oldPrice": null,
+  "discount": "-7 %",
+  "currency": "EUR",
+  "available": true,
+  "type": "Мъжка парфюмна вода",
+  "labels": [
+   "Нов продукт"
+  ],
+  "shopRating": null,
+  "gender": "male",
+  "concentration": "EDP",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Karl%20Lagerfeld%20Urban%20Green",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
+  "id": "parfium:11848477704533",
+  "shop": "parfium",
+  "brand": "Christian Louboutin",
+  "name": "Christian Louboutin Fetiche L'Encens Eau de Parfum",
+  "url": "https://parfium.bg/products/christian-louboutin-fetiche-lencens-eau-de-parfum",
+  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/3_4c808ca0-83e9-447a-866e-fa0cf4951f57.jpg?v=1795684363",
+  "price": 200,
+  "oldPrice": null,
+  "currency": "EUR",
+  "sizes": [
+   "80 ml"
+  ],
+  "available": false,
+  "type": "Унисекс парфюми",
+  "gender": "unisex",
+  "concentration": "EDP",
+  "family": "Дървесни",
+  "description": "Парфюмната вода унисекс Christian Louboutin Fetiche L'Encens излиза на пазара през 2024 година като част от колекцията Fetiche на модната къща Christian Louboutin. Уханието е дървесно-пикантен аромат, в който мистичният тамян се среща с огнения черен пипер и топли дървесни нотки. Колекцията Fetiche включва парфюми, всеки от които е посветен на една емблематична съставка и е свързан с образа на обу",
+  "publishedAt": "2026-11-26T09:12:54.000Z",
+  "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Fetiche%20L'Encens",
+  "firstSeen": "2026-11-27T07:46:28.580Z",
+  "baseline": false,
+  "lastSeen": "2026-11-27T07:46:28.580Z"
+ },
+ {
   "id": "parfimo:1249444",
   "shop": "parfimo",
   "brand": "Paris Corner",
@@ -21,7 +214,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paris%20Corner%20Midnight%20Sin",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272958",
@@ -45,7 +238,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Gardenia",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1274337",
@@ -69,7 +262,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Falsafat",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1238690",
@@ -93,7 +286,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Diesel%20D%20Red%20Le",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273100",
@@ -117,7 +310,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montale%20Lucky%20Candy",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:887361",
@@ -141,7 +334,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Mercedes-Benz%20Woman",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1225278",
@@ -150,7 +343,7 @@
   "name": "Ella Ella Flora Azura Eau de Parfum за жени 30 ml",
   "url": "https://parfimo.bg/cacharel-ella-ella-flora-azura-eau-de-parfum-za-zeni-30-ml_z1225278/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164388/photo.desktop.bg?1795047907",
-  "price": 25.5,
+  "price": 26,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -165,7 +358,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Cacharel%20Ella%20Ella%20Flora%20Azura",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1226501",
@@ -189,7 +382,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paris%20Corner%20Marshmallow%20Blush",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1235355",
@@ -198,7 +391,7 @@
   "name": "CK One комплект Eau de Toilette 100 ml + Дезодорант 150 ml",
   "url": "https://parfimo.bg/calvin-klein-ck-one-komplekt-eau-de-toilette-100-ml-dezodorant-150-ml_z1235355/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164450/photo.desktop.bg?1795052953",
-  "price": 36,
+  "price": 28.5,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -213,7 +406,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20CK%20One",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1241625",
@@ -237,7 +430,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20CK%20One%20Night%20Essence%20Intense",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249369",
@@ -261,7 +454,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paris%20Corner%20Eshal%20Musk",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11845988942165",
@@ -286,7 +479,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=The%20House%20of%20Oud%20BonBon%20Pop",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11845982388565",
@@ -301,7 +494,7 @@
   "sizes": [
    "50 ml"
   ],
-  "available": true,
+  "available": false,
   "type": "Нишови парфюми без опаковка",
   "gender": "male",
   "concentration": "Parfum",
@@ -311,7 +504,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Roja%20Parfums%20Enigma%20Pour%20Homme",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11845982355797",
@@ -336,7 +529,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=The%20House%20of%20Oud%20Golden%20Powder",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11845982323029",
@@ -361,7 +554,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rabanne%201%20Million%20Golden%20Oud%20Intense",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11845625217365",
@@ -386,7 +579,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=New%20Notes%20Akigala%20Mandarino",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11845625184597",
@@ -411,7 +604,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Les%20Liquides%20Imaginaires%20Liquide%20Gold",
   "firstSeen": "2026-11-26T07:48:27.496Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1160723",
@@ -435,7 +628,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hermes%20Bar%C3%A9nia",
   "firstSeen": "2026-11-25T07:49:11.283Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1271588",
@@ -483,7 +676,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rochas%20Eau%20de%20Rochas",
   "firstSeen": "2026-11-25T07:49:11.283Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1026159",
@@ -491,7 +684,7 @@
   "brand": "Gres",
   "name": "Cabotine de Gres Eau de Toilette комплект за жени Eau de Toilette 100 ml + Лосион за тяло 200 m",
   "url": "https://parfimo.bg/gres-cabotine-de-gres-eau-de-toilette-komplekt-za-zeni-eau-de-toilette-100-ml-losion-za-talo-200-m_z1026159/",
-  "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164883/photo.desktop.bg?1795688343",
   "price": 18.5,
   "oldPrice": null,
   "discount": null,
@@ -507,7 +700,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gres%20Cabotine%20de%20Gres",
   "firstSeen": "2026-11-25T07:49:11.283Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1162127",
@@ -531,7 +724,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Tiger",
   "firstSeen": "2026-11-25T07:49:11.283Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1253861",
@@ -587,7 +780,7 @@
   "brand": "Dumont Paris",
   "name": "Nitro Red Pour Homme Eau de Parfum за мъже 100 ml",
   "url": "https://parfimo.bg/dumont-paris-nitro-red-pour-homme-eau-de-parfum-za-m-ze-100-ml_z1104570/",
-  "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164919/photo.desktop.bg?1795690095",
   "price": 32,
   "oldPrice": null,
   "discount": null,
@@ -603,7 +796,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dumont%20Paris%20Nitro%20Red%20Pour%20Homme",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1247036",
@@ -627,7 +820,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Lumi%C3%A8re%20d%20Issey",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273160",
@@ -651,7 +844,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Swiss%20Arabian%20Shaghaf%20Oud%20Marine",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1102104",
@@ -675,7 +868,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Gardenia%20Intense%20Intense",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1162575",
@@ -683,7 +876,7 @@
   "brand": "Dumont Paris",
   "name": "Nitro Red Intensely Парфюмен екстракт за мъже 100 ml",
   "url": "https://parfimo.bg/dumont-paris-nitro-red-intensely-parfumen-ekstrakt-za-m-ze-100-ml_z1162575/",
-  "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164920/photo.desktop.bg?1795690095",
   "price": 42.5,
   "oldPrice": null,
   "discount": null,
@@ -699,7 +892,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dumont%20Paris%20Nitro%20Red%20Intensely",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1248621",
@@ -749,7 +942,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=parfium-bg%20Roja%20Elysium%20Pour%20Homme",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11838394499413",
@@ -774,7 +967,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Viola",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11838394532181",
@@ -799,7 +992,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Viola",
   "firstSeen": "2026-11-24T07:44:32.154Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:962847",
@@ -823,7 +1016,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nuxe%20Very%20Rose",
   "firstSeen": "2026-11-23T07:58:36.377Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1207783",
@@ -832,7 +1025,7 @@
   "name": "Original Parfum комплект за мъже Парфюм 100 ml + Парфюм миниатюра 7,5 ml + Душ гел 100 ml",
   "url": "https://parfimo.bg/lacoste-original-parfum-komplekt-za-m-ze-parfum-100-ml-parfum-miniatura-7-5-ml-dus-gel-100-ml_z1207783/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164833/photo.desktop.bg?1795549901",
-  "price": 41.5,
+  "price": 48,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -847,7 +1040,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lacoste%20Original",
   "firstSeen": "2026-11-23T07:58:36.377Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1021433",
@@ -871,7 +1064,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20Eternity%20for%20Women%20Amber%20Essence%20Intense",
   "firstSeen": "2026-11-23T07:58:36.377Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1090239",
@@ -895,7 +1088,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lacoste%20L.12.12%20Blanc",
   "firstSeen": "2026-11-23T07:58:36.377Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1248623",
@@ -943,7 +1136,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paris%20Corner%20The%20Show%20Magnifique",
   "firstSeen": "2026-11-23T07:58:36.377Z",
   "baseline": false,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1255688",
@@ -991,7 +1184,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Laura%20Biagiotti%20Laura",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273077",
@@ -1015,7 +1208,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Versace%20Eros%20Energy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:909653",
@@ -1063,7 +1256,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paris%20Corner%20Rifaaqat%20Ume",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272642",
@@ -1087,7 +1280,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=French%20Avenue%20Les%20Extraits%20Absolus%20Unknown",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272159",
@@ -1135,7 +1328,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Pure%20XS%20for%20Her%20Rabanne",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272162",
@@ -1183,7 +1376,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Khamrah%20Mira",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1207784",
@@ -1207,7 +1400,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montblanc%20Explorer%20Extreme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1258006",
@@ -1216,7 +1409,7 @@
   "name": "Le Sel d'Issey Parfum Парфюм за мъже 100 ml",
   "url": "https://parfimo.bg/issey-miyake-le-sel-d-issey-parfum-parfum-za-m-ze-100-ml_z1258006/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164428/photo.desktop.bg?1795051583",
-  "price": 70,
+  "price": 68,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -1231,7 +1424,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Le%20Sel%20d'Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272264",
@@ -1255,7 +1448,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Khadlaj%20Sue%C3%B1o",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249363",
@@ -1303,7 +1496,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montblanc%20Explorer",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1258593",
@@ -1327,7 +1520,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Hectic",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1216574",
@@ -1351,7 +1544,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montblanc%20Explorer%20Extreme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1269562",
@@ -1423,7 +1616,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Le%20Sel%20d'Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249174",
@@ -1471,7 +1664,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Khamrah",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249177",
@@ -1519,7 +1712,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Orchid%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272247",
@@ -1543,7 +1736,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fragrance%20World%20Figue%20Myst%C3%A9rieuse",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272613",
@@ -1567,7 +1760,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Equinox",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249176",
@@ -1615,7 +1808,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Burberry%20Goddess",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272248",
@@ -1639,7 +1832,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fragrance%20World%20Guava%20Colada",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272612",
@@ -1663,7 +1856,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Vanilla%20Vibe",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1179986",
@@ -1687,7 +1880,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Guilty%20Absolu%20de%20Pour%20Homme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1233948",
@@ -1696,7 +1889,7 @@
   "name": "Yum me, Sunny! комплект за жени Eau de Parfum 100 ml + Крем за тяло 75 ml + Козметична чанта",
   "url": "https://parfimo.bg/escada-yum-me-sunny-komplekt-za-zeni-eau-de-parfum-100-ml-krem-za-talo-75-ml-kozmeticna-canta_z1233948/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164448/photo.desktop.bg?1795052953",
-  "price": 38.5,
+  "price": 38,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -1711,7 +1904,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Escada%20Yum%20me%20Sunny",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249374",
@@ -1759,7 +1952,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Gardenia%20Intense%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1235101",
@@ -1768,7 +1961,7 @@
   "name": "Lumière d’Issey Eau de Parfum за жени 100 ml",
   "url": "https://parfimo.bg/issey-miyake-lumiere-d-issey-eau-de-parfum-za-zeni-100-ml_z1235101/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164426/photo.desktop.bg?1795051583",
-  "price": 63,
+  "price": 62,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -1783,7 +1976,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Lumi%C3%A8re%20d%20Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272526",
@@ -1831,7 +2024,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Cedrus%20Blanc",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272987",
@@ -1855,7 +2048,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paris%20Corner%20Zariya",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273166",
@@ -1879,7 +2072,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Amazonica",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1141030",
@@ -1927,7 +2120,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Givenchy%20Irr%C3%A9sistible%20Nectar",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1247932",
@@ -1999,7 +2192,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Orchid%20Intense%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1270057",
@@ -2023,7 +2216,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20Eternity%20For%20Women%20Suede%20Essence%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272886",
@@ -2047,7 +2240,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Cacharel%20Amor%20Amor",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272939",
@@ -2071,7 +2264,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Boss%20Bottled",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272952",
@@ -2095,7 +2288,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Boss%20Bottled%20Beyond",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272961",
@@ -2119,7 +2312,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20Euphoria%20Magnetic%20Elixir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1162915",
@@ -2128,7 +2321,7 @@
   "name": "Le Sel d’Issey Eau de Parfum Пълнител за парфюмна вода за мъже 150 ml",
   "url": "https://parfimo.bg/issey-miyake-le-sel-d-issey-eau-de-parfum-p-lnitel-za-parfumna-voda-za-m-ze-150-ml_z1162915/",
   "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
-  "price": 57.5,
+  "price": 59,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -2143,7 +2336,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Le%20Sel%20d%20Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272544",
@@ -2191,7 +2384,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Too%20Damn%20Good",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272634",
@@ -2200,7 +2393,7 @@
   "name": "Hawas Blanche Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/rasasi-hawas-blanche-parfumna-voda-100-ml_z1272634/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164113/photo.desktop.bg?1794552361",
-  "price": 43.5,
+  "price": 42.5,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -2215,7 +2408,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Hawas%20Blanche",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272635",
@@ -2224,9 +2417,9 @@
   "name": "Hawas Crystelle Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/rasasi-hawas-crystelle-parfumna-voda-100-ml_z1272635/",
   "image": "https://data.parfimo.bg/photo/product_catalog/163771/photo.desktop.bg?1793963745",
-  "price": 40.5,
+  "price": 38,
   "oldPrice": null,
-  "discount": null,
+  "discount": "-7 %",
   "currency": "EUR",
   "available": true,
   "type": "Парфюмна вода UNISEX",
@@ -2239,7 +2432,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Hawas%20Crystelle",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272926",
@@ -2248,7 +2441,7 @@
   "name": "Madison Eau de Parfum ТЕСТЕР за жени 100 ml",
   "url": "https://parfimo.bg/brooks-brothers-madison-eau-de-parfum-tester-za-zeni-100-ml_z1272926/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164689/photo.desktop.bg?1795371431",
-  "price": 20,
+  "price": 17.5,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -2263,7 +2456,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Brooks%20Brothers%20Madison",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:941004",
@@ -2287,7 +2480,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Jasmine",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1090389",
@@ -2311,7 +2504,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Versace%20Eros%20Najim",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1124613",
@@ -2335,7 +2528,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Gardenia%20Intense%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1171689",
@@ -2359,7 +2552,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Laura%20Biagiotti%20Aqve%20Romane%20Divinum%20Ficus",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1253482",
@@ -2383,7 +2576,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Boss%20Bottled%20Striking%20Lavender",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1255829",
@@ -2431,7 +2624,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Hawas%20Ice%20Freeze",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1269973",
@@ -2455,7 +2648,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20Eternity%20For%20Women%20Suede%20Essence%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272959",
@@ -2479,7 +2672,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lacoste%20Original",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272968",
@@ -2488,7 +2681,7 @@
   "name": "Legend Eau de Parfum комплект за мъже Eau de Parfum 100 ml + Парфюмна вода миниатюра 2 x 7",
   "url": "https://parfimo.bg/montblanc-legend-eau-de-parfum-komplekt-za-m-ze-eau-de-parfum-100-ml-parfumna-voda-miniatura-2-x-7_z1272968/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164835/photo.desktop.bg?1795549901",
-  "price": 39.5,
+  "price": 43.5,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -2503,7 +2696,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montblanc%20Legend",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1033972",
@@ -2551,7 +2744,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Laura%20Biagiotti%20Aqve%20Romane%20Uva%20Dulcis",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1237990",
@@ -2599,7 +2792,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Lumi%C3%A8re%20d%20Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272547",
@@ -2623,7 +2816,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=4711%20Acqua%20Colonia%20Amber%20Mandarin",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272568",
@@ -2647,7 +2840,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Kokomo%20Paradise",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272622",
@@ -2671,7 +2864,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tiziana%20Terenzi%20Cas",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272623",
@@ -2695,7 +2888,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tiziana%20Terenzi%20Ixbeta",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272624",
@@ -2719,7 +2912,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tiziana%20Terenzi%20Uxalpha",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273001",
@@ -2743,7 +2936,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Karl%20Lagerfeld%20Urban%20Green",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273118",
@@ -2791,7 +2984,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Alvarez%20G%C3%B3mez%20Agua%20de%20Colonia%20Concentrada",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1005008",
@@ -2800,7 +2993,7 @@
   "name": "Vetiver Glacier Eau de Parfum за мъже 125 ml",
   "url": "https://parfimo.bg/montblanc-vetiver-glacier-eau-de-parfum-za-m-ze-125-ml_z1005008/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164465/photo.desktop.bg?1795054889",
-  "price": 57.5,
+  "price": 58,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -2815,7 +3008,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montblanc%20Vetiver%20Glacier",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1024456",
@@ -2839,7 +3032,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Burberry%20Goddess%20Intense%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1104740",
@@ -2863,7 +3056,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Donna%20Pink%20Marina",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1225679",
@@ -2887,7 +3080,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Boss%20Bottled",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1227555",
@@ -2920,7 +3113,7 @@
   "name": "Pour Femme Absolu Eau de Parfum ТЕСТЕР за жени 100 ml",
   "url": "https://parfimo.bg/michael-kors-pour-femme-absolu-eau-de-parfum-tester-za-zeni-100-ml_z1237742/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164002/photo.desktop.bg?1794299499",
-  "price": 50,
+  "price": 50.5,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -2935,7 +3128,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Michael%20Kors%20Pour%20Femme%20Absolu",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1239123",
@@ -2959,7 +3152,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Banderas%20The%20Icon%20For%20Women",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1246957",
@@ -2983,7 +3176,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20L'Eau%20d'Issey%20Eau%20Essentielle",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249094",
@@ -3055,7 +3248,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bare%20Victoria's%20Secret",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1251770",
@@ -3079,7 +3272,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Gardenia%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1255554",
@@ -3103,7 +3296,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Nava%20Sol",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1255639",
@@ -3127,7 +3320,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Vibration",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1266841",
@@ -3151,7 +3344,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lacoste%20L.12.12%20Rose",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272421",
@@ -3199,7 +3392,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Date%20Night",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272566",
@@ -3247,7 +3440,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Next%20Level",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272577",
@@ -3271,7 +3464,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Too%20Damn%20Clean",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272582",
@@ -3295,7 +3488,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Dead%20Serious",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272967",
@@ -3319,7 +3512,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chlo%C3%A9%20Chlo%C3%A9%20SET3",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273121",
@@ -3328,9 +3521,9 @@
   "name": "Pride Breeze Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/lattafa-pride-breeze-parfumna-voda-100-ml_z1273121/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164117/photo.desktop.bg?1794554463",
-  "price": 29,
+  "price": 24.5,
   "oldPrice": null,
-  "discount": null,
+  "discount": "-18 %",
   "currency": "EUR",
   "available": true,
   "type": "Парфюмна вода UNISEX",
@@ -3343,7 +3536,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Pride%20Breeze",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1273168",
@@ -3367,7 +3560,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Swiss%20Arabian%20Shaghaf%20Oud%20Marine",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:775679",
@@ -3391,7 +3584,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Shooting%20Stars%20Nio",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:936276",
@@ -3400,9 +3593,9 @@
   "name": "Guardians Of The Galaxy Eau de Toilette 100 ml",
   "url": "https://parfimo.bg/marvel-guardians-of-the-galaxy-eau-de-toilette-100-ml_z936276/",
   "image": "https://data.parfimo.bg/photo/product_catalog/164850/photo.desktop.bg?1795551534",
-  "price": 13,
+  "price": 11,
   "oldPrice": null,
-  "discount": null,
+  "discount": "-8 %",
   "currency": "EUR",
   "available": true,
   "type": "Детска тоалетна вода",
@@ -3415,7 +3608,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Marvel%20Guardians%20Of%20The%20Galaxy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:985690",
@@ -3423,7 +3616,7 @@
   "brand": "Reef",
   "name": "Reef 33 Парфюм 100 ml",
   "url": "https://parfimo.bg/reef-reef-33-parfum-100-ml_z985690/",
-  "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
+  "image": "https://data.parfimo.bg/photo/product_catalog/164881/photo.desktop.bg?1795688343",
   "price": 46.5,
   "oldPrice": null,
   "discount": null,
@@ -3439,7 +3632,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Reef%20Reef%2033",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1005006",
@@ -3472,9 +3665,9 @@
   "name": "Wolverine Eau de Toilette 100 ml",
   "url": "https://parfimo.bg/marvel-wolverine-eau-de-toilette-100-ml_z1042613/",
   "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
-  "price": 13.5,
+  "price": 11.5,
   "oldPrice": null,
-  "discount": null,
+  "discount": "-8 %",
   "currency": "EUR",
   "available": true,
   "type": "Детска тоалетна вода",
@@ -3487,7 +3680,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Marvel%20Wolverine",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1081087",
@@ -3511,7 +3704,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Davidoff%20Cool%20Elixir%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1099835",
@@ -3535,7 +3728,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Marvel%20Spiderman%20Miles%20Morales",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1119134",
@@ -3544,7 +3737,7 @@
   "name": "Santal Blond Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/atelier-materi-santal-blond-parfumna-voda-100-ml_z1119134/",
   "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
-  "price": 138,
+  "price": 137,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -3560,7 +3753,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Atelier%20Materi%20Santal%20Blond",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1153483",
@@ -3569,7 +3762,7 @@
   "name": "Poivre Pomelo Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/atelier-materi-poivre-pomelo-parfumna-voda-100-ml_z1153483/",
   "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
-  "price": 151.5,
+  "price": 179,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -3585,7 +3778,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Atelier%20Materi%20Poivre%20Pomelo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1159873",
@@ -3609,7 +3802,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Maison%20Francis%20Kurkdjian%20Baccarat%20Rouge%20540",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1171688",
@@ -3642,7 +3835,7 @@
   "name": "Narcisse Taiji Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/atelier-materi-narcisse-taiji-parfumna-voda-100-ml_z1206959/",
   "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
-  "price": 137.5,
+  "price": 137,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -3658,7 +3851,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Atelier%20Materi%20Narcisse%20Taiji",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1208839",
@@ -3682,7 +3875,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rochas%20Audace",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1241041",
@@ -3706,7 +3899,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Bloom",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1241666",
@@ -3730,7 +3923,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20CK%20One%20Night%20Essence%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1243981",
@@ -3739,7 +3932,7 @@
   "name": "Cacao Porcelana Парфюмна вода 100 ml",
   "url": "https://parfimo.bg/atelier-materi-cacao-porcelana-parfumna-voda-100-ml_z1243981/",
   "image": "https://parfimo.bg/data/tmp/2/0/0_2.webp?1793910224",
-  "price": 154,
+  "price": 155,
   "oldPrice": null,
   "discount": null,
   "currency": "EUR",
@@ -3755,7 +3948,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Atelier%20Materi%20Cacao%20Porcelana",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1244712",
@@ -3779,7 +3972,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rayhaan%20Pacific%20Aura",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1246586",
@@ -3803,7 +3996,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Giorgio%20Armani%20S%C3%AC%20Passione%20Red%20Bloom",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1249386",
@@ -3923,7 +4116,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Marc%20Jacobs%20Perfect",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1264007",
@@ -3995,7 +4188,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Karl%20Lagerfeld%20Urban%20Coral",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272311",
@@ -4068,7 +4261,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Legacy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfimo:1272922",
@@ -4141,7 +4334,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chlo%C3%A9%20Chlo%C3%A9%20Le%20Nectar%20Intense%20MINI",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11826076614997",
@@ -4166,7 +4359,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=S.T.%20Dupont%20Blanc",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11824858562901",
@@ -4191,7 +4384,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Ajmal%20Carbon",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11824858530133",
@@ -4216,7 +4409,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=BDK%20Parfums%20Impadia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11821234389333",
@@ -4225,7 +4418,7 @@
   "name": "Lattafa Khamrah Mira Eau de Parfum",
   "url": "https://parfium.bg/products/lattafa-khamrah-mira-eau-de-parfum",
   "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/3_c4a63bc0-eb53-4730-91b4-5d6ee881a749.jpg?v=1795002115",
-  "price": 45.99,
+  "price": 42.99,
   "oldPrice": null,
   "currency": "EUR",
   "sizes": [
@@ -4241,7 +4434,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Khamrah%20Mira",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817008267605",
@@ -4266,7 +4459,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Oud%20Scandalous%20Madness",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817008202069",
@@ -4291,7 +4484,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Surf%20the%20Ginger%20Wave",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817008103765",
@@ -4316,7 +4509,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Palm%20Oases",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817008038229",
@@ -4341,7 +4534,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Kite%20in%20Crystal%20Reef",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817007579477",
@@ -4366,7 +4559,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Criminal%20Lipstick",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817007546709",
@@ -4391,7 +4584,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Fico%20Nero",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817007513941",
@@ -4416,7 +4609,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Apricot%20Innocence",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817007415637",
@@ -4441,7 +4634,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Zest%20di%20Sorrento",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817007022421",
@@ -4466,7 +4659,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Mandorla%20del%20Sud",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006924117",
@@ -4491,7 +4684,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Venom%20-%20Secret%20of%20Shaman",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006825813",
@@ -4516,7 +4709,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Silver%20Marble",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006793045",
@@ -4541,7 +4734,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Vicebomb",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006432597",
@@ -4566,7 +4759,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Rose%20of%20Dangerous%20Flamenco",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006334293",
@@ -4591,7 +4784,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Ocean%20of%20a%20Midnight%20Moon",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006301525",
@@ -4616,7 +4809,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Born%20From%20Fire",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006268757",
@@ -4641,7 +4834,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Don't%20Ask%20Me%20Permission",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006104917",
@@ -4666,7 +4859,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Smoke%20of%20Desert",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817006039381",
@@ -4691,7 +4884,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Camouflage",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817005973845",
@@ -4716,7 +4909,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Sunplosion",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817005941077",
@@ -4741,7 +4934,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Tulum%20Junglescape",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817005711701",
@@ -4766,7 +4959,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Pacific%20Park",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817005678933",
@@ -4792,7 +4985,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Leisure%20in%20Paradise",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817005646165",
@@ -4818,7 +5011,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Malibu'%20Party%20in%20the%20Bay",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11817005613397",
@@ -4843,7 +5036,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Simone%20Andreoli%20Moorea",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501529429",
@@ -4868,7 +5061,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nasomatto%20Micodelirio",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501758805",
@@ -4894,7 +5087,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tom%20Ford%20Eau%20de%20Grey%20Vetiver",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501660501",
@@ -4919,7 +5112,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Maison%20Alhambra%20Jean%20Lowe%20Azure",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501562197",
@@ -4944,7 +5137,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nishane%20Hesperide%20Colognise%20Cologne%20Extrait",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501594965",
@@ -4969,7 +5162,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20K%20Blue%20Collection%20Holysm",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501496661",
@@ -4994,7 +5187,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jimmy%20Choo%20I%20Want%20Choo%20With%20Love",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11815501791573",
@@ -5019,7 +5212,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20K%20Collection%20Layla",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11810335818069",
@@ -5027,7 +5220,7 @@
   "brand": "Roja Parfums",
   "name": "Roja Parfums Amber Aoud Parfum",
   "url": "https://parfium.bg/products/roja-parfums-amber-aoud-parfum",
-  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/25_0dfc196d-eac5-4b24-ae0a-7899d6f873c9.jpg?v=1794578362",
+  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/5056663800629_roja_parfums_amber_aoud__u__parfum_50ml.jpg?v=1795686177",
   "price": 223.99,
   "oldPrice": null,
   "currency": "EUR",
@@ -5044,7 +5237,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Roja%20Parfums%20Amber%20Aoud",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11803091403093",
@@ -5069,7 +5262,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Electimuss%20Vesper%20Reverie",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11803091370325",
@@ -5094,7 +5287,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Elie%20Saab%20L'Homme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11795487588693",
@@ -5119,7 +5312,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=NL%20Beauty%20Sense%20Of%20Me",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11800983994709",
@@ -5144,7 +5337,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Afnan%20Lynked%20Forever",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11795217547605",
@@ -5169,7 +5362,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Baldessarini%20Bella",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11795029688661",
@@ -5194,7 +5387,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armani%20Giorgio%20Armani%20Stronger%20With%20You%20Spices",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792387998037",
@@ -5219,7 +5412,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Jouri",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388063573",
@@ -5244,7 +5437,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Maison%20Alhambra%20Sceptre%20Malachite",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388096341",
@@ -5269,7 +5462,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Maahir%20Honor",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388129109",
@@ -5294,7 +5487,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Hawas%20Verde",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388161877",
@@ -5320,7 +5513,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Laura%20Biagiotti%20Roma%20Uomo%20Nero%20Estremo%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388292949",
@@ -5345,7 +5538,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Laura%20Biagiotti%20Roma%20Uomo%20Nero%20Estremo%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388325717",
@@ -5370,7 +5563,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=M.%20Micallef%20Desir%20Toxic",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388391253",
@@ -5395,7 +5588,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Eau%20de%20Memo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388555093",
@@ -5420,7 +5613,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Ilha%20do%20Mel",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388882773",
@@ -5445,7 +5638,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Paul%20Smith%20Women",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389308757",
@@ -5470,7 +5663,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Roberto%20Cavalli%20Uomo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388653397",
@@ -5495,7 +5688,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Moroccan%20Leather",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388686165",
@@ -5520,7 +5713,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Ocean%20Leather",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388784469",
@@ -5545,7 +5738,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Michael%20Kors%20Super%20Gorgeous%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388817237",
@@ -5570,7 +5763,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Molinard%20Iris",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388850005",
@@ -5595,7 +5788,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nautica%20Pure%20Blue",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747963076949",
@@ -5621,7 +5814,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20My%20Devotion%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389079381",
@@ -5646,7 +5839,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Roberto%20Cavalli%20Just%20Cavalli%20Wild%20Blue",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389243221",
@@ -5671,7 +5864,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Roberto%20Cavalli%20Just%20Cavalli%20Wild%20Pink",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389603669",
@@ -5696,7 +5889,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Salvatore%20Ferragamo%20Signorina%20Unica",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389636437",
@@ -5721,7 +5914,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tom%20Ford%20Private%20Blend%20Black%20Lacquer",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389734741",
@@ -5748,7 +5941,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tom%20Ford%20Private%20Blend%20Oud%20Voyager",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389800277",
@@ -5773,7 +5966,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Victoria's%20Secret%20Just%20A%20Kiss",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792389046613",
@@ -5798,7 +5991,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Ralph%20Lauren%20Big%20Pony%202",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388948309",
@@ -5823,7 +6016,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Police%20Original",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388620629",
@@ -5848,7 +6041,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Irish%20Leather",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792388358485",
@@ -5873,7 +6066,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Argentina",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792387965269",
@@ -5898,7 +6091,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Pride%20Eternal%20Vanille",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792387932501",
@@ -5923,7 +6116,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Jasoor",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11792387899733",
@@ -5948,7 +6141,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Atlas%20Glacial%20Valley",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488954646869",
@@ -5973,7 +6166,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Initio%20Parfums%20Prives%20Blessed%20Baraka",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782716621141",
@@ -5998,7 +6191,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Bella%20Vita",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495830357",
@@ -6023,7 +6216,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lancome%20Absolue%20Rose%20Or%20Die",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495600981",
@@ -6048,7 +6241,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lancome%20Absolue%20Rose%20On%20The%20Moon",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495535445",
@@ -6073,7 +6266,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lancome%20Absolue%20Le",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495502677",
@@ -6098,7 +6291,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lancome%20Absolue%206%20AM%20Rose",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495469909",
@@ -6123,7 +6316,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lancome%20Absolue%201001%20Roses",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495404373",
@@ -6148,7 +6341,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jacomo%20Le",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495306069",
@@ -6173,7 +6366,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jesus%20Del%20Pozo%20Halloween%20Kiss",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495240533",
@@ -6198,7 +6391,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Iconic%20Blue",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495076693",
@@ -6223,7 +6416,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Iconic%20For%20Women",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494978389",
@@ -6248,7 +6441,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Iconic%20For%20Men",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494945621",
@@ -6273,7 +6466,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20La%20Mia%20Bella%20Vita",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494880085",
@@ -6298,7 +6491,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20La%20Mia%20Bella%20Vita",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494585173",
@@ -6323,7 +6516,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jacomo%20de%20Jacomo%20In%20White",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494552405",
@@ -6348,7 +6541,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jacomo%20Silences%20In%20White%20Sublime",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494519637",
@@ -6373,7 +6566,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Joop%20Femme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782494486869",
@@ -6398,7 +6591,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lanvin%20Modern%20Princess%20In%20Jeans",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782495338837",
@@ -6423,7 +6616,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jesus%20Del%20Pozo%20Halloween%20Kiss%20Sexy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782280184149",
@@ -6448,7 +6641,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Amore%20Napoli",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782280282453",
@@ -6473,7 +6666,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Bella%20Vita%20Paradiso",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782280216917",
@@ -6498,7 +6691,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Bella%20Vita",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782280151381",
@@ -6523,7 +6716,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20The%20Voice%20of%20the%20Snake",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782280053077",
@@ -6548,7 +6741,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Floraiku%20Sound%20of%20a%20Ricochet",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279987541",
@@ -6573,7 +6766,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Floraiku%20Sleeping%20On%20The%20Roof",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279954773",
@@ -6598,7 +6791,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Floraiku%20Sand%20and%20Skin",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279889237",
@@ -6623,7 +6816,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Floraiku%20AO",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279758165",
@@ -6648,7 +6841,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Elizabeth%20Arden%20White%20Tea%20Eau%20Lilac",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279496021",
@@ -6673,7 +6866,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Donna%20Karan%20DKNY%20Cashmere%20Mist",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279463253",
@@ -6698,7 +6891,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20Light%20Blue",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782280380757",
@@ -6723,7 +6916,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Gold",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279430485",
@@ -6748,7 +6941,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Givenchy%20Insense%20Ultramarine",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782279397717",
@@ -6773,7 +6966,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Cristiano%20Ronaldo%20CR7%20Energy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782049169749",
@@ -6798,7 +6991,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=By%20Kilian%20Love%20Don't%20Be%20Shy%20Extreme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782049136981",
@@ -6823,7 +7016,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bois%201920%20Parana",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782049104213",
@@ -6848,7 +7041,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Luna",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782049071445",
@@ -6873,7 +7066,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Infusion",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782049005909",
@@ -6898,7 +7091,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Cloud%209",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048973141",
@@ -6923,7 +7116,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Loulou%20Rose",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048940373",
@@ -6948,7 +7141,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Loulou%20Noir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048907605",
@@ -6973,7 +7166,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Loulou%20Love",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048481621",
@@ -6998,7 +7191,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Loulou%20Joy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048448853",
@@ -7023,7 +7216,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Jasmin%20Moghol",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048416085",
@@ -7048,7 +7241,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Aigle%20Imperial",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048350549",
@@ -7073,7 +7266,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=BMW%20Bergamood",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048317781",
@@ -7098,7 +7291,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bentley%20Momentum%20Unlimited",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048252245",
@@ -7123,7 +7316,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Royal%20Musk",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048285013",
@@ -7148,7 +7341,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bentley%20Infinite%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048219477",
@@ -7173,7 +7366,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Opulent%20Sapphire",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048186709",
@@ -7198,7 +7391,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Opulent%20Saffron",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048153941",
@@ -7223,7 +7416,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Musk%20Maliki",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782048022869",
@@ -7248,7 +7441,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Musk%20Collection",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782047990101",
@@ -7273,7 +7466,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Fall%20In%20Love%20Pink",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782047957333",
@@ -7298,7 +7491,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Fall%20In%20Love%20Orange",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11782047924565",
@@ -7323,7 +7516,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Al%20Haramain%20Amber%20Musk",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11778026275157",
@@ -7349,7 +7542,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nishane%20Thorns%20Become%20Roses",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11778026242389",
@@ -7375,7 +7568,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Gardenia%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11778026209621",
@@ -7401,7 +7594,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Bloom%20Ambrosia%20d'Oro",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11775350702421",
@@ -7426,7 +7619,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Mezzo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11775350669653",
@@ -7451,7 +7644,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Dolce%20Melodia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11759868936533",
@@ -7476,7 +7669,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Bottled%20Beyond%20For%20Her",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11751495369045",
@@ -7501,7 +7694,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=S.T.%20Dupont%20Noir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753501229397",
@@ -7526,7 +7719,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montale%20Aqua%20Palma",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753501196629",
@@ -7551,7 +7744,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Ra%20ed%20Intensely",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753501032789",
@@ -7576,7 +7769,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Fahad",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753501098325",
@@ -7601,7 +7794,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Atlas%20Canyon",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753501000021",
@@ -7626,7 +7819,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lacoste%20Original",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753451061589",
@@ -7651,7 +7844,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Mercedes%20Benz%20Club%20Black",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753451028821",
@@ -7676,7 +7869,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Mancera%20Mochi%20Musk",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450996053",
@@ -7701,7 +7894,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20L'Eau%20D'Issey%20Solar%20Violet%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450963285",
@@ -7726,7 +7919,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Badee%20Al%20Oud%20Black%20Exposed",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450930517",
@@ -7751,7 +7944,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Davidoff%20Cool%20Elixir%20Floral%20Vanilla",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450897749",
@@ -7778,7 +7971,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nishane%20Thorns%20Become%20Roses",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450799445",
@@ -7803,7 +7996,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Maison%20Alhambra%20Megara",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450733909",
@@ -7828,7 +8021,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Nasomatto%20Micodelirio",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450701141",
@@ -7853,7 +8046,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Initio%20Parfums%20Prives%20Wild%20Rush",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450668373",
@@ -7878,7 +8071,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Initio%20Parfums%20Prives%20Sugar%20Blast",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11753450602837",
@@ -7903,7 +8096,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Parfums%20de%20Marly%20Athenais",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488650330453",
@@ -7928,7 +8121,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montale%20Oud%20Sapparot",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750629409109",
@@ -7953,7 +8146,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Orange%20Crush",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750629343573",
@@ -7978,7 +8171,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Angel%20Dust",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750629310805",
@@ -8003,7 +8196,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Vanilla%20Haze",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750629278037",
@@ -8028,7 +8221,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20In%20Love%20With%20The%20Cocos",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750629245269",
@@ -8053,7 +8246,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Thirsty",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750380044629",
@@ -8078,7 +8271,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jean%20Paul%20Gaultier%20Le%20Beau%20Narcisse",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750379913557",
@@ -8103,7 +8296,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Zadig%20%26%20Voltaire%20This%20Is%20Her%20Red%20Hot",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750379553109",
@@ -8128,7 +8321,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Zadig%20%26%20Voltaire%20This%20Is%20Him%20Red%20Hot",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750379454805",
@@ -8153,7 +8346,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Max%20Mara%20Le",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750379323733",
@@ -8178,7 +8371,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lancome%20La%20Vie%20Est%20Belle%20L'Elixir%20Very%20Cherry",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750379159893",
@@ -8203,7 +8396,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armani%20Giorgio%20Armani%20I%20Will",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750378668373",
@@ -8228,7 +8421,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=YSL%20Yves%20Saint%20Laurent%20Black%20Opium%20Pink%20Glaze",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750378537301",
@@ -8253,7 +8446,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Prada%20Paradoxe%20Sweet%20Chemistry",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750378504533",
@@ -8278,7 +8471,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Valentino%20Vendetta%20Donna",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750378307925",
@@ -8303,7 +8496,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Valentino%20Vendetta%20Uomo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750377718101",
@@ -8328,7 +8521,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=YSL%20Yves%20Saint%20Laurent%20Libre%20Santal%20Couture",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750377587029",
@@ -8353,7 +8546,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hermes%20Barenia%20Pleine%20Fleur",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750377554261",
@@ -8378,7 +8571,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Le%20Sel%20D'Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750377455957",
@@ -8403,7 +8596,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rabanne%20Million%20Red%20for%20Her",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750376669525",
@@ -8428,7 +8621,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rabanne%201%20Million%20Black",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750376636757",
@@ -8453,7 +8646,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jean%20Paul%20Gaultier%20La%20Belle%20Rosea",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750376571221",
@@ -8478,7 +8671,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Miu%20Miu%20Miutine%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750376538453",
@@ -8503,7 +8696,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=YSL%20Yves%20Saint%20Laurent%20Myslf%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750029754709",
@@ -8528,7 +8721,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Fierezza",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11750029623637",
@@ -8553,7 +8746,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Perseveranza",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488671138133",
@@ -8578,7 +8771,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gisada%20Uomo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747326263637",
@@ -8603,7 +8796,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Byredo%20Rose%20Of%20No%20Man's%20Land",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747326165333",
@@ -8628,7 +8821,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Carolina%20Herrera%20Good%20Girl%20Blush%20Polka%20Paradise%20Edition",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747326132565",
@@ -8653,7 +8846,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Angelique%20Begum",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747326067029",
@@ -8678,7 +8871,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Gardenia%20Tahia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747326001493",
@@ -8703,7 +8896,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Tubereuse%20Maharane",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325935957",
@@ -8728,7 +8921,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Tobacco%20Malaki",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325903189",
@@ -8753,7 +8946,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20Dolce%20Magnolia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325837653",
@@ -8778,7 +8971,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20Q%20by%20Dolce%20%26%20Gabbana%20Elixir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325706581",
@@ -8805,7 +8998,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20The%20One%20for%20Women%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325608277",
@@ -8831,7 +9024,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Montale%20Starry%20Nights%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325575509",
@@ -8856,7 +9049,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Acqua%20di%20Parma%20Gelsomino%20a%20Freddo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325509973",
@@ -8881,7 +9074,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Acqua%20di%20Parma%20Gelsomino%20a%20Freddo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325411669",
@@ -8906,7 +9099,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Elie%20Saab%20Elixir%20Love",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325346133",
@@ -8931,7 +9124,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rochas%20Mademoiselle%20Rochas%20in%20Love",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325313365",
@@ -8956,7 +9149,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tiziana%20Terenzi%20Osola",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325149525",
@@ -8981,7 +9174,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Le%20Vie%20Di%20Milano%20Alba%20Sui%20Navigli",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747324887381",
@@ -9006,7 +9199,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Le%20Vie%20Di%20Milano%20Musc%20Noir%20Perfume%20Enhancer",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747324854613",
@@ -9031,7 +9224,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Le%20Vie%20Di%20Milano%20Walking%20On%20Via%20Fiori%20Oscuri",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747324821845",
@@ -9056,7 +9249,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Le%20Vie%20Di%20Milano%20The%20Italian%20Artists%20Of%20Via%20Solferino",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747324789077",
@@ -9081,7 +9274,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Trussardi%20Le%20Vie%20Di%20Milano%20Behind%20The%20Curtain%20Piazza%20Alla%20Scala",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747325804885",
@@ -9106,7 +9299,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20K%20by%20Dolce%20%26%20Gabbana%20Elixir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11747518972245",
@@ -9131,7 +9324,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20The%20One%20for%20Men%202025",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488815022421",
@@ -9140,7 +9333,7 @@
   "name": "Guess Amore Roma Eau de Toilette",
   "url": "https://parfium.bg/products/guess-amore-roma-uniseks-toaletna-voda-edt",
   "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/34614.jpg?v=1786023201",
-  "price": 14,
+  "price": 13.5,
   "oldPrice": null,
   "currency": "EUR",
   "sizes": [
@@ -9156,7 +9349,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Guess%20Amore%20Roma",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489043513685",
@@ -9181,7 +9374,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Akro%20Malt",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744743358805",
@@ -9207,7 +9400,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Bottled%20Beyond%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400900437",
@@ -9232,7 +9425,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Ajwad%20Pink%20to%20Pink%20Creamy%20Elixir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400933205",
@@ -9257,7 +9450,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Give%20Me%20Gourmand%20Harlequin%20Cream",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400965973",
@@ -9282,7 +9475,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Badee%20Al%20Oud%20Amethyst%20Fusion",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401162581",
@@ -9307,7 +9500,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Club%20de%20Nuit%20Elite",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401195349",
@@ -9332,7 +9525,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Odyssey%20Nexus",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401260885",
@@ -9357,7 +9550,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Odyssey%20Li'Chi%20Lush",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401293653",
@@ -9382,7 +9575,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Odyssey%20Soda%20Pop",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401424725",
@@ -9407,7 +9600,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Odyssey%20French%20Kiss",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401457493",
@@ -9432,7 +9625,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Armaf%20Odyssey%20Pink%20Pop",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400867669",
@@ -9457,7 +9650,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Give%20Me%20Gourmand%20Matcha%20Swirl",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400572757",
@@ -9482,7 +9675,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Hectic",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400539989",
@@ -9507,7 +9700,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Mafia%20Boss",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400507221",
@@ -9532,7 +9725,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Executor",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744401523029",
@@ -9557,7 +9750,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Maison%20Asrar%20Legacy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11743955255637",
@@ -9582,7 +9775,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Avanguardia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11744400605525",
@@ -9607,7 +9800,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bujairami%20Too%20Damn%20Good",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736361763157",
@@ -9632,7 +9825,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=S.T.%20Dupont%20Classic%20Pour%20Femme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736359797077",
@@ -9658,7 +9851,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Narciso%20Rodriguez%20All%20Of%20Me%20Essentiel",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736359764309",
@@ -9683,7 +9876,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Mont%20Blanc%20Signature%20Elixir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736359731541",
@@ -9708,7 +9901,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=The%20Woods%20Collection%20Royal%20Night",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736359698773",
@@ -9733,7 +9926,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Mont%20Blanc%20Legend%20Elixir",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736672043349",
@@ -9758,7 +9951,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Loumari%20Radanfor",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736671977813",
@@ -9783,7 +9976,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Loumari%20Amber%20Malatya",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736671781205",
@@ -9808,7 +10001,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Loumari%20Almeria",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736671748437",
@@ -9833,7 +10026,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Loumari%20Aomak",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736671715669",
@@ -9848,7 +10041,7 @@
   "sizes": [
    "100 ml"
   ],
-  "available": true,
+  "available": false,
   "type": "Нишови парфюми",
   "gender": "unisex",
   "concentration": "Extrait",
@@ -9858,7 +10051,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Loumari%20Porthole",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11736671682901",
@@ -9883,7 +10076,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Loumari%20Noble%20Cavale",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11612608332117",
@@ -9891,7 +10084,7 @@
   "brand": "Thameen",
   "name": "Thameen The Cora Extrait de Parfum без опаковка",
   "url": "https://parfium.bg/products/thameen-the-cora-uniseks-parfyumen-ekstrakt-bez-opakovka",
-  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/46562.jpg?v=1789538946",
+  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/5060905831821_thameen_the_cora__u__extrait_de_parfum_50_ml.jpg?v=1795695484",
   "price": 139,
   "oldPrice": null,
   "currency": "EUR",
@@ -9908,7 +10101,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Thameen%20The%20Cora",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489408319829",
@@ -9933,7 +10126,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Gucci%20Flora%20Gorgeous%20Jasmine",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489307951445",
@@ -9958,7 +10151,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Zadig%20%26%20Voltaire%20This%20is%20Us",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489275937109",
@@ -9983,7 +10176,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jesus%20Del%20Pozo%20Halloween%20Man%20Rock%20On",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489244643669",
@@ -10008,7 +10201,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Dior%20Sauvage",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489227800917",
@@ -10033,7 +10226,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Muse",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489072283989",
@@ -10058,7 +10251,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Revlon%20Charlie%20Silver%20by%20Revlon",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489071956309",
@@ -10086,7 +10279,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Britney%20Spears%20Fantasy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489056358741",
@@ -10111,7 +10304,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Richwood",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489003503957",
@@ -10136,7 +10329,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Givenchy%20Hot%20Couture",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488988037461",
@@ -10161,7 +10354,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Maison%20Crivelli%20Iris%20Malikhan",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488892780885",
@@ -10186,7 +10379,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Juliette%20Has%20A%20Gun%20Sunny%20Side%20Up",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488838615381",
@@ -10211,7 +10404,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=New%20Notes%20Latte%20Pistachio",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488794444117",
@@ -10236,7 +10429,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20The%20Scent%20Magnetic%20For%20Him",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488639582549",
@@ -10261,7 +10454,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20Eternity%20Amber%20Essence%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488482197845",
@@ -10286,7 +10479,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Vanitas",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488482034005",
@@ -10311,7 +10504,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Victrix",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488478626133",
@@ -10319,7 +10512,7 @@
   "brand": "Profumum Roma",
   "name": "Profumum Roma Acqua di Sale Eau de Parfum",
   "url": "https://parfium.bg/products/profumum-roma-acqua-di-sale-uniseks-parfyumna-voda-edp",
-  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/43350.jpg?v=1786016059",
+  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/8057717140941_profumum_roma_acqua_di_sale__u__edp_100.jpg?v=1795683090",
   "price": 255,
   "oldPrice": null,
   "currency": "EUR",
@@ -10336,7 +10529,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Acqua%20di%20Sale",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488478593365",
@@ -10361,7 +10554,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Patchouly",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488478527829",
@@ -10386,7 +10579,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Dulcis%20in%20Fundo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474825045",
@@ -10411,7 +10604,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Bianco",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474792277",
@@ -10436,7 +10629,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Chicco",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474726741",
@@ -10461,7 +10654,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Palio",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474693973",
@@ -10486,7 +10679,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Roda",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474628437",
@@ -10511,7 +10704,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Rosso",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474530133",
@@ -10536,7 +10729,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Splendido",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474464597",
@@ -10561,7 +10754,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Verde",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474431829",
@@ -10569,7 +10762,7 @@
   "brand": "Profumum Roma",
   "name": "Profumum Roma Acqua e Zucchero",
   "url": "https://parfium.bg/products/profumum-roma-acqua-e-zucchero-uniseks-parfyumna-voda-edp",
-  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/43586.jpg?v=1786016031",
+  "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/8057717141085_profumum_roma_e_zucchero__u__edp_100.jpg?v=1795683119",
   "price": 250,
   "oldPrice": null,
   "currency": "EUR",
@@ -10586,7 +10779,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Acqua%20e%20Zucchero",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474399061",
@@ -10611,7 +10804,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Ambra%20Aurea",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474300757",
@@ -10636,7 +10829,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Antico%20Caruso",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474267989",
@@ -10662,7 +10855,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Confetto",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474235221",
@@ -10687,7 +10880,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Dambrosia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474202453",
@@ -10712,7 +10905,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Fiori%20d%20Ambra",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474169685",
@@ -10737,7 +10930,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Battito%20d'Ali",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488474071381",
@@ -10762,7 +10955,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Neroli",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488473940309",
@@ -10787,7 +10980,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Soavissima",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488473842005",
@@ -10812,7 +11005,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Profumum%20Roma%20Sorriso",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488464634197",
@@ -10837,7 +11030,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Venti4%20Vorrei",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489297629525",
@@ -10864,7 +11057,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Ariana%20Grande%20Sweet%20Like%20Candy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11488929284437",
@@ -10889,7 +11082,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Tiziana%20Terenzi%20Dionisio",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11489002914133",
@@ -10905,7 +11098,7 @@
    "75 ml",
    "75 ml с нарушена цялост"
   ],
-  "available": true,
+  "available": false,
   "type": "Нишови парфюми без опаковка",
   "gender": "unisex",
   "concentration": "EDP",
@@ -10915,7 +11108,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Van%20Cleef%20%26%20Arpels%20Ambre%20Imperial",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11733263876437",
@@ -10940,7 +11133,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hugo%20Boss%20Bottled%20Beyond",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11732936458581",
@@ -10965,7 +11158,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Love%20Hibiscus",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11732936425813",
@@ -10990,7 +11183,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jo%20Malone%20Cypress%20%26%20Grapevine%20Cologne%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11729456202069",
@@ -11015,7 +11208,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Paris%20Graines%20Vagabondes%20Abu%20Dhabi",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728778068309",
@@ -11040,7 +11233,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bvlgari%20Le%20Gemme%20Ambero",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728598040917",
@@ -11065,7 +11258,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Jo%20Malone%20English%20Pear%20%26%20Sweet%20Pea",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597942613",
@@ -11091,7 +11284,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Perseveranza",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597713237",
@@ -11117,7 +11310,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Fierezza",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597680469",
@@ -11143,7 +11336,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Xerjoff%20Avanguardia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597647701",
@@ -11168,7 +11361,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Lyric%20Man",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597614933",
@@ -11193,7 +11386,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Memoir%20Man",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597188949",
@@ -11218,7 +11411,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Line%20618",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597156181",
@@ -11243,7 +11436,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Purpose%2050",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597123413",
@@ -11268,7 +11461,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Honour%2043",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11728597090645",
@@ -11293,7 +11486,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Amouage%20Reflection%20Man",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11726395113813",
@@ -11320,7 +11513,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Dolce%20%26%20Gabbana%20The%20One%20for%20Men%202025",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11725901431125",
@@ -11345,7 +11538,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Davidoff%20Champion",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11725901398357",
@@ -11370,7 +11563,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Memo%20Italian%20Leather",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11725901365589",
@@ -11395,7 +11588,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Al%20Ghalia",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11725901332821",
@@ -11420,7 +11613,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Asdaaf%20Ameerat%20Al%20Arab%20Prive%20Rose",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11725725827413",
@@ -11445,7 +11638,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=French%20Avenue%20Zenith%20Deep",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11725725794645",
@@ -11470,7 +11663,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Cristiano%20Ronaldo%20CR7%20Energy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724566528341",
@@ -11495,7 +11688,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Issey%20Miyake%20Lumiere%20d'Issey",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724566200661",
@@ -11520,7 +11713,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Cristiano%20Ronaldo%20Legacy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724565414229",
@@ -11545,7 +11738,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Benetton%20Colors%20Black%20Intenso",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724565381461",
@@ -11570,7 +11763,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Bentley%20Become",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724565315925",
@@ -11595,7 +11788,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Hawas%20Diva",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771781461",
@@ -11620,7 +11813,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Prada%20Mirages%20Some%20Velvet%20Morning",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724134023509",
@@ -11645,7 +11838,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Pana%20Dora%20Kropp%20%26%20Sjal",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11724004131157",
@@ -11654,7 +11847,7 @@
   "name": "Lattafa Taureau De Combat Eau de Parfum",
   "url": "https://parfium.bg/products/lattafa-taureau-de-combat-eau-de-parfum",
   "image": "https://cdn.shopify.com/s/files/1/1061/1988/9237/files/10_ea09f009-9117-420e-a6f2-fbd6196cd60c.jpg?v=1792407609",
-  "price": 33.99,
+  "price": 32.99,
   "oldPrice": null,
   "currency": "EUR",
   "sizes": [
@@ -11670,7 +11863,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Taureau%20De%20Combat",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11723909759317",
@@ -11695,7 +11888,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Lattafa%20Sheikh%20Al%20Shuyukh%20Supreme",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771158869",
@@ -11720,7 +11913,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Prada%20Day%20For%20Night",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771191637",
@@ -11745,7 +11938,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Rasasi%20Hawas%20Viper",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771224405",
@@ -11771,7 +11964,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Thirsty",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771257173",
@@ -11796,7 +11989,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Carolina%20Herrera%20Mystery%20Tobacco",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771879765",
@@ -11821,7 +12014,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Prada%20Mirages%20Dark%20Light",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771912533",
@@ -11846,7 +12039,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Prada%20Mirages%20Miracle%20Of%20The%20Rose",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707771978069",
@@ -11871,7 +12064,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Calvin%20Klein%20Eternity%20for%20Men",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11708101558613",
@@ -11896,7 +12089,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Burberry%20Hero%20Elixir%20de",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11708101493077",
@@ -11921,7 +12114,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Orange%20Crush",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11708101525845",
@@ -11946,7 +12139,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Hermes%20Barenia%20Pleine%20Fleur",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11708101624149",
@@ -11971,7 +12164,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Cristiano%20Ronaldo%20Legacy",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11708101820757",
@@ -11996,7 +12189,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=RITUALS%20Fleurs%20de%20l'Himalaya",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11708101853525",
@@ -12021,7 +12214,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Chopard%20Jasmin%20Malika",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11707996406101",
@@ -12046,7 +12239,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Pana%20Dora%20Skara",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704532435285",
@@ -12071,7 +12264,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Loubicrown",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704532369749",
@@ -12096,7 +12289,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Penhaligon%20s%20Penhaligon's%20Luna",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704532336981",
@@ -12121,7 +12314,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Penhaligon%20s%20Penhaligon's%20Endymion",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704532304213",
@@ -12146,7 +12339,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Carolina%20Herrera%20Bronze%20Tonka",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704531943765",
@@ -12171,7 +12364,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Matiere%20Premiere%20Metal%20Lavender",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704531878229",
@@ -12198,7 +12391,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Pomegranoudh",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704531845461",
@@ -12223,7 +12416,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Mizensir%20Tonic%20Water",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704531910997",
@@ -12249,7 +12442,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Fugazzi%20Vanilla%20Haze",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036426069",
@@ -12274,7 +12467,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Loubihorse",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036458837",
@@ -12300,7 +12493,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Loubimar",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036491605",
@@ -12325,7 +12518,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Loubikiss",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036786517",
@@ -12350,7 +12543,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Fetiche%20L'Iris",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036819285",
@@ -12375,7 +12568,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Fetiche%20La%20Rose",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036852053",
@@ -12400,7 +12593,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Lavande%20Fetiche",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11704036393301",
@@ -12425,7 +12618,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Loubiluna%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700678000981",
@@ -12450,7 +12643,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Arabiyat%20Prestige%20Mahd%20Al%20Dhahab",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700677476693",
@@ -12475,7 +12668,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Arabiyat%20Prestige%20Marwa",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700677509461",
@@ -12500,7 +12693,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Christian%20Louboutin%20Loubiprince%20Intense",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700677542229",
@@ -12525,7 +12718,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Orto%20Parisi%20Risvelium",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700677378389",
@@ -12550,7 +12743,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Vibranna",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700031848789",
@@ -12575,7 +12768,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Erba%20Pura%20Magica",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11700013302101",
@@ -12600,7 +12793,7 @@
   "fragranticaSearch": "https://www.fragrantica.com/search/?query=Sospiro%20Mezzo",
   "firstSeen": "2026-11-22T07:13:46.464Z",
   "baseline": true,
-  "lastSeen": "2026-11-26T07:48:27.496Z"
+  "lastSeen": "2026-11-27T07:46:28.580Z"
  },
  {
   "id": "parfium:11685538201941",
